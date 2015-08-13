@@ -12,8 +12,14 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
+//= require classie
+//= require colorfinder
+//= require contact
+//= require custom
+//= require easing
+//= require smoothscroll
 //= require modernizr
 //= require wow
-//= require bootstrap
 //= require turbolinks
 //= require_tree .
