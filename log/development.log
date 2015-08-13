@@ -52513,3 +52513,9 @@ Resolution:
   Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
   Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
   Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-13 11:48:15 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (83.2ms)
+Completed 200 OK in 340ms (Views: 333.9ms)
