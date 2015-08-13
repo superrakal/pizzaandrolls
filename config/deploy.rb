@@ -4,7 +4,7 @@ require 'capistrano-unicorn'
 
 set :application, 'pizzaandrolls'
 set :rails_env, 'production'
-set :domain, 'root@5.101.120.197'
+set :domain, 'root@5.101.119.56'
 set :deploy_to, "/var/www/#{application}"
 set :use_sudo, false
 set :normalize_asset_timestamps, false

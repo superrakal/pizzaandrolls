@@ -1,5 +1,5 @@
 $ ->
-  $('#move-modal').modal()
+#  $('#move-modal').modal()
   $("body").niceScroll()
 
 $ ->

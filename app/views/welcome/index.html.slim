@@ -19,25 +19,25 @@
           .slide-1
           .hero
             hgroup
-              img alt="logo" src="/assets/logo.png" /
+              = image_tag "logo.png"
               h1 Вкуснейшая еда
-              h3 Всегда на готове
+              h3 сайт в стадии разработки
             a.btn.btn-hero.button href="#service"  Вкусить
         .item.slides
           .slide-2
           .hero
             hgroup
-              img alt="logo" src="/assets/logo.png" /
+              = image_tag "logo.png"
               h1 Вкуснейшая еда
-              h3 Всегда на готове
+              h3 сайт в стадии разработки
             a.btn.btn-hero.button href="#service"  Вкусить
         .item.slides
           .slide-3
           .hero
             hgroup
-              img alt="logo" src="/assets/logo.png" /
+              = image_tag "logo.png"
               h1 Вкуснейшая еда
-              h3 Всегда на готове
+              h3 сайт в стадии разработки
             a.btn.btn-hero.button href="#service"  Вкусить
       .menu
         nav.navbar.navbar-default.navbar-fixed-top
@@ -340,6 +340,8 @@
         h4.modal-title Заказ обратного звонка
       .modal-body
         form
+          .form-group
+            input.form-control placeholder='Ваше имя'
           .form-group
             input#phone.form-control placeholder='Введите номер'
       .modal-footer
