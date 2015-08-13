@@ -1,0 +1,347 @@
+/! wrapper start
+.wrapper
+  /! header
+  .hidden-sm.hidden-xs.callback
+    i.fa.fa-phone
+    a#callback Заказать звонок
+  header#header
+    #bs-carousel.carousel.fade-carousel.slide data-interval="4000" data-ride="carousel"
+      /! Overlay
+      .overlay
+      /! Indicators
+      ol.carousel-indicators
+        li.active data-slide-to="0" data-target="#bs-carousel"
+        li data-slide-to="1" data-target="#bs-carousel"
+        li data-slide-to="2" data-target="#bs-carousel"
+      /! Wrapper for slides
+      .carousel-inner
+        .item.slides.active
+          .slide-1
+          .hero
+            hgroup
+              img alt="logo" src="/assets/logo.png" /
+              h1 Вкуснейшая еда
+              h3 Всегда на готове
+            a.btn.btn-hero.button href="#service"  Вкусить
+        .item.slides
+          .slide-2
+          .hero
+            hgroup
+              img alt="logo" src="/assets/logo.png" /
+              h1 Вкуснейшая еда
+              h3 Всегда на готове
+            a.btn.btn-hero.button href="#service"  Вкусить
+        .item.slides
+          .slide-3
+          .hero
+            hgroup
+              img alt="logo" src="/assets/logo.png" /
+              h1 Вкуснейшая еда
+              h3 Всегда на готове
+            a.btn.btn-hero.button href="#service"  Вкусить
+      .menu
+        nav.navbar.navbar-default.navbar-fixed-top
+          .container
+            .navbar-header
+              button#nav-toggle.navbar-toggle data-target="#main-nav" data-toggle="collapse" type="button"
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            #main-nav.collapse.navbar-collapse
+              ul.nav.navbar-nav
+                li
+                  a.scroll-link href="#header"  Главная
+                li
+                  a.scroll-link href="#service"  Каталог
+                li
+                  a.scroll-link href="#gallery"  ТОП блюда
+                li
+                  a.scroll-link href="#delivery"  Доставка
+                li
+                  a.scroll-link href="#shares"  Акции
+                li
+                  a.scroll-link href="#feedback"  Отзывы
+                li
+                  a.scroll-link href="#contact"  Контакты
+
+  section#service.service.page-section
+    .container.text-center
+      .heading
+        h2 Каталог
+      .row
+        .col-md-4
+          .box-area
+            .box-area-icon
+              =image_tag "sushi.png"
+            h3 Суши
+        .col-md-4
+          .box-area
+            .box-area-icon
+              =image_tag "rolls.png"
+            h3 Роллы
+        .col-md-4
+          .box-area
+            .box-area-icon
+              =image_tag "pizza.png"
+            h3 Пицца
+        .col-md-4
+          .box-area
+            .box-area-icon
+              =image_tag "soup.png"
+            h3 Горячее
+        .col-md-4
+          .box-area
+            .box-area-icon
+              =image_tag "salad.png"
+            h3 Салаты
+        .col-md-4
+          .box-area
+            .box-area-icon
+              =image_tag "drinks.png"
+            h3 Напитки
+  /! gallery
+  section#gallery.gallery.page-section
+    .container
+      .heading
+        h2 Топ блюда
+        h3
+          | По мнению наших клиентов - эти блюда самые лучшие!
+      #grid-gallery.grid-gallery
+        section.grid-wrap
+          ul.grid
+            li.grid-sizer
+            /! for Masonry column width
+            li
+              figure
+                img alt="" src="/assets/gallery/img1.jpg" /
+                figcaption
+                  h3 Thundercats level
+            li
+              figure
+                img alt="" src="/assets/gallery/img2.jpg" /
+                figcaption
+                  h3 Bushwick selvage
+            li
+              figure
+                img alt="" src="/assets/gallery/img3.jpg" /
+                figcaption
+                  h3 Bottle wayfarers
+            li
+              figure
+                img alt="" src="/assets/gallery/img4.jpg" /
+                figcaption
+                  h3 Letterpress
+            li
+              figure
+                img alt="" src="/assets/gallery/img5.jpg" /
+                figcaption
+                  h3 Vice velit chia
+            li
+              figure
+                img alt="" src="/assets/gallery/img6.jpg" /
+                figcaption
+                  h3 Brunch semiotics
+            li
+              figure
+                img alt="" src="/assets/gallery/img7.jpg" /
+                figcaption
+                  h3 Brunch semiotics
+            li
+              figure
+                img alt="" src="/assets/gallery/img8.jpg" /
+                figcaption
+                  h3 Brunch semiotics
+        section.slideshow
+          ul
+            li
+              figure
+                img alt="" src="/assets/gallery/img1.jpg" /
+                figcaption
+                  h3 Thundercats next level
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.
+            li
+              figure
+                img alt="" src="/assets/gallery/img2.jpg" /
+                figcaption
+                  h3 Bushwick selvage synth
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.
+            li
+              figure
+                img alt="" src="/assets/gallery/img3.jpg" /
+                figcaption
+                  h3 Bottle wayfarers locavore
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.
+            li
+              figure
+                img alt="" src="/assets/gallery/img4.jpg" /
+                figcaption
+                  h3 Letterpress asymmetrical
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.
+            li
+              figure
+                img alt="" src="/assets/gallery/img5.jpg" /
+                figcaption
+                  h3 Vice velit chia
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.
+            li
+              figure
+                img alt="" src="/assets/gallery/img6.jpg" /
+                figcaption
+                  h3 Brunch semiotics
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.
+            li
+              figure
+                img alt="" src="/assets/gallery/img7.jpg" /
+                figcaption
+                  h3 Brunch semiotics
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.
+            li
+              figure
+                img alt="" src="/assets/gallery/img8.jpg" /
+                figcaption
+                  h3 Brunch semiotics
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit amet mauris bibendum, ac fringilla quam eleifend.
+          nav
+            span.icon.nav-prev
+            span.icon.nav-next
+            span.icon.nav-close
+  /! // end slideshow
+  section#delivery.page-section
+    .container-fluid.without-margin
+      .heading
+        h2 Доставка
+        h3
+          | Мы работаем с лучшими! Служба доставки ПЯТНИЦА сделает все в лучшем виде.
+        .col-md-12
+          h2.text-center
+          .info
+            p
+              b
+                i.fa-clock-o.fa
+                |&nbsp; 9:00-23:00
+            p
+              b
+                i.fa-phone.fa
+                |&nbsp; +7-777-851-41-41, 78-78-78
+            p
+              b
+                i.fa-map-marker.fa
+                |&nbsp; г.Усть-Каменогорск: Октябрьский, Ульбинский микрорайоны
+            .image-fullwidth
+              = image_tag 'pyatnica_big.jpg', class:'img-responsive'
+  section#shares.aboutus.page-section
+    .container
+      .heading
+        h2 Акции
+      .content
+        .row
+          .col-md-12
+            .col-lg-6.col-md-6.col-sm-12.col-xs-12
+              = image_tag 'logo.png', class:'img-responsive'
+            .col-lg-6.col-md-6.col-sm-12.col-xs-12
+              = image_tag 'pyatnica.jpg', class: 'img-responsive'
+  /! // grid-gallery
+  /! feedback
+  section#feedback.page-section
+    .container
+      .heading
+        h2 Отзывы и предложения
+        h3
+          | Здесь вы можете прочитать последние отзывы о нас
+      .row
+        .col-md-12
+          #quote-carousel.carousel.slide data-ride="carousel"
+            /! Bottom Carousel Indicators
+            ol.carousel-indicators
+              li.active data-slide-to="0" data-target="#quote-carousel"
+              li data-slide-to="1" data-target="#quote-carousel"
+              li data-slide-to="2" data-target="#quote-carousel"
+            /! Carousel Slides / Quotes
+            .carousel-inner
+              /! Quote 1
+              .item.active
+                blockquote
+                  .row
+                    .col-sm-12
+                      p Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!
+                      small Someone famous
+              /! Quote 2
+              .item
+                blockquote
+                  .row
+                    .col-sm-12
+                      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.
+                      small Someone famous
+              /! Quote 3
+              .item
+                blockquote
+                  .row
+                    .col-sm-12
+                      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                      small Someone famous
+  /! feedback
+  section#feedback-add.page-section
+    .container
+      .heading
+        h2 Оставьте отзыв
+        h3
+          | Ваше мнение очень важно для нас!
+          br
+          | Напишите, что вы о нас думаете или, если у вас есть предложения - поделитесь ими!
+    .container.w960
+      .row
+        .done
+          .alert.alert-success
+            button.close data-dismiss="alert" type="button"  ×
+            | Your message has been sent. Thank you!
+        form#contactform.text-center
+          input.contact.col-md-6.col-sm-12.col-xs-12 name="name" placeholder=("Ваше имя *") type="text" /
+          input.contact.noMarr.col-md-6.col-sm-12.col-xs-12 name="email" placeholder=("E-mail адрес *") type="email" /
+          textarea.contact.col-md-12.col-sm-12.col-xs-12 name="comment" placeholder=("Сообщение *")
+          input#submit.contact.submit.center-block type="submit" value=("Отправить") /
+
+  section#contact.contact.page-section
+    .container
+      .heading
+        h2 Контакты
+    .container
+      .col-md-12
+        .col-md-4.text-center
+          h3
+            i.fa.fa-mobile
+            |&nbsp; +7-777-852-48-88
+        .col-md-4.text-center
+          h3
+            i.fa.fa-phone
+            |&nbsp; 78-78-78
+        .col-md-4.text-center
+          h3
+            i.fa.fa-map-marker
+            |&nbsp; пр. Независимости 48
+.modal.fade#move-modal
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button.close aria-label="Close" data-dismiss="modal" type="button"
+          span aria-hidden="true"  &times;
+        h4.modal-title Акция!
+      .modal-body
+        p Условия акции
+      .modal-footer
+        button.btn.btn-default data-dismiss="modal" type="button"  Закрыть
+
+.modal.fade#callback-modal
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button.close aria-label="Close" data-dismiss="modal" type="button"
+          span aria-hidden="true"  &times;
+        h4.modal-title Заказ обратного звонка
+      .modal-body
+        form
+          .form-group
+            input#phone.form-control placeholder='Введите номер'
+      .modal-footer
+        button.btn.btn-default data-dismiss="modal" type="button"  Закрыть
+        button.btn.btn-red type="button"  Заказать
