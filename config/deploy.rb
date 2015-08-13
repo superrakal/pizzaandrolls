@@ -24,11 +24,9 @@ role :db,  domain, :primary => true
 
 after 'deploy', 'deploy:migrate'
 after 'deploy:update', 'deploy:cleanup'
-# after 'deploy:before', 'deploy:elastic:import'
 after 'deploy:restart', 'unicorn:reload'    # app IS NOT preloaded
 after 'deploy:restart', 'unicorn:restart'   # app preloaded
 after 'deploy:restart', 'unicorn:duplicate' # before_fork hook implemented (zero downtime deployments)
-# before 'deploy:assets:precompile', 'bower:install'
 
 namespace :deploy do
   task :init_vhost do
@@ -37,12 +35,5 @@ namespace :deploy do
 
   task :seed do
     run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
-  end
-end
-
-namespace :bower do
-  desc 'Install bower components'
-  task :install do
-    run "cd #{current_release}/frontend && bower install --allow-root"
   end
 end
