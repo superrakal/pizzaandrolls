@@ -1001,9 +1001,7 @@ blockquote footer, blockquote small, blockquote .small {
 
 @media screen and (max-width:768px) {
  
-  #main-nav {
-    background: #E28133;
-  }
+
 
   .navbar-nav>li {
     float: none;
@@ -1011,6 +1009,7 @@ blockquote footer, blockquote small, blockquote .small {
   }
 
   .nav>li>a {
+    width: 100%;
     display: block;
     color: #000000;
     padding: 18px 15px;
