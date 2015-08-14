@@ -52683,3 +52683,93 @@ Started GET "/" for 127.0.0.1 at 2015-08-13 12:32:33 +0300
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.slim within layouts/application (75.8ms)
 Completed 200 OK in 273ms (Views: 272.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 11:56:27 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (103.2ms)
+Completed 200 OK in 392ms (Views: 385.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 11:57:17 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (49.4ms)
+Completed 200 OK in 226ms (Views: 225.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 11:57:25 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (71.8ms)
+Completed 200 OK in 280ms (Views: 279.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 11:57:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.5ms)
+Completed 200 OK in 193ms (Views: 192.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 11:58:19 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (51.8ms)
+Completed 200 OK in 235ms (Views: 234.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 11:58:33 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (47.3ms)
+Completed 200 OK in 226ms (Views: 225.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 11:58:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (50.0ms)
+Completed 200 OK in 232ms (Views: 231.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 11:59:34 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (47.3ms)
+Completed 200 OK in 226ms (Views: 225.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 12:00:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (48.4ms)
+Completed 200 OK in 238ms (Views: 237.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 12:00:52 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (47.4ms)
+Completed 200 OK in 230ms (Views: 229.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 12:02:01 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (48.0ms)
+Completed 200 OK in 239ms (Views: 239.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 12:02:18 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (46.7ms)
+Completed 200 OK in 236ms (Views: 235.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 12:02:27 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (49.0ms)
+Completed 200 OK in 231ms (Views: 230.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 12:02:30 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (73.1ms)
+Completed 200 OK in 268ms (Views: 266.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-14 12:03:04 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (51.4ms)
+Completed 200 OK in 242ms (Views: 241.9ms)
