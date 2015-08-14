@@ -1,0 +1,2 @@
+class Sushi < Item
+end

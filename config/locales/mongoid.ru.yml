@@ -1,0 +1,43 @@
+ru:
+  mongoid:
+    models:
+      comment:
+        one:   Отзыв
+        few:   Отзывы
+        many:  Отзывы
+        other: Отзывы
+      item:
+        one:   Элемент
+        few:   Элементы
+        many:  Элементов
+        other: Элементы
+      sushi:
+        one:   Суши
+        few:   Суши
+        many:  Суши
+        other: Суши
+      roll:
+        one:   Ролл
+        few:   Роллы
+        many:  Роллы
+        other: Роллы
+      pizza:
+        one:   Пицца
+        few:   Пиццы
+        many:  Пиццы
+        other: Пиццы
+      soup:
+        one:   Горячее
+        few:   Горячие блюда
+        many:  Горячие блюда
+        other: Горячие блюда
+      salad:
+        one:   Салат
+        few:   Салаты
+        many:  Салаты
+        other: Салаты
+      drink:
+        one:   Напиток
+        few:   Напитки
+        many:  Напитки
+        other: Напитки

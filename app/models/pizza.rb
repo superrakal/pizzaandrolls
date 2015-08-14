@@ -1,0 +1,2 @@
+class Pizza < Item
+end

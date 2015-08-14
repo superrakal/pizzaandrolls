@@ -53,17 +53,11 @@ jQuery(document).ready(function ($) {
 		//start the ajax
 		$.ajax({
 			//this is the php file that processes the data and sends email
-			url: "contact.php",	
+			url: "/feedback/create?"+data,
 			
 			//GET method is used
 			type: "POST",
 
-			//pass the data			
-			data: data,		
-			
-			//Do not cache the page
-			cache: false,
-			
 			//success
 			success: function (html) {				
 				//if contact.php returned 1/true (send mail success)

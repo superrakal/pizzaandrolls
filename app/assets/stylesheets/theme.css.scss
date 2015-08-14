@@ -20,14 +20,14 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px auto;
 }
 a,a:hover {
-	color:#D6B56E;
+	color:#E28133;
 	text-decoration: none;
 }
 img {max-width: 100%;}
 /*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image c#D6B56Eits: unsplash.com
+Image c#E28133its: unsplash.com
 */
 
 /********************************/
@@ -44,8 +44,8 @@ Image c#D6B56Eits: unsplash.com
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
-    background-color: #D6B56E;
-    border-color: #D6B56E;
+    background-color: #E28133;
+    border-color: #E28133;
     opacity: .7;
 }
 .fade-carousel .carousel-indicators > li.active {
@@ -118,8 +118,9 @@ Image c#D6B56Eits: unsplash.com
 .btn.btn-hero,
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
-    color: #2B2A29;
-    background-color: #D6B56E;
+    color: white;
+    font-weight: bold;
+    background-color: #E28133;
     border: 1px dotted #2B2A29;
     outline: none;
     margin: 20px auto;
@@ -341,11 +342,11 @@ Image c#D6B56Eits: unsplash.com
 	display:none;
 }
 .isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
-	background: #D6B56E;
+	background: #E28133;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
-	background:#D6B56E;
+	background:#E28133;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a {
@@ -409,7 +410,7 @@ Image c#D6B56Eits: unsplash.com
 	padding:5px;
 }
 .heading h2::first-letter {
-	color: #99814f;
+	color: #E28133;
 }
 .heading h3 {
 	font-size:16px;
@@ -502,7 +503,7 @@ img#site-title {
 	margin:0 0 20px 0;
 	font-size:19px;
 	padding-bottom:10px;
-	color:#D6B56E;
+	color:#E28133;
 	border-bottom: 4px double #eee;
 }
 /*---------------------------------------------------- 	Gallery Events------------------------------------------------------*/
@@ -750,14 +751,14 @@ textarea.contact {
 	border-radius:3px;
 }
 .contact.submit:hover {
-	background:#D6B56E;
+	background:#E28133;
 }
 .done {
 	display:none;
 }
 .error input,input.error,.error textarea,textarea.error {
 	background-color:#ffffff;
-	border:1px solid #D6B56E !Important;
+	border:1px solid #E28133 !Important;
 	-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;
 	-moz-transition:border linear 0.2s,box-shadow linear 0.2s;
 	-o-transition:border linear 0.2s,box-shadow linear 0.2s;
@@ -767,7 +768,7 @@ textarea.contact {
 
 /*----------------------------------------------------	 8. Footer Style------------------------------------------------------*/
 .footer {
-	background:#D6B56E;
+	background:#E28133;
 	margin-top:120px;
 	position:relative;
 }
@@ -828,7 +829,7 @@ textarea.contact {
 	border-radius:50%;
 }
 .gototop i {
-	color:#D6B56E;
+	color:#E28133;
 	line-height:70px;
 }
 .footer a,.footer a:hover {
@@ -849,11 +850,11 @@ blockquote:before {
 	position:absolute;
 	left:10px;
 	top:-30px;
-	color:#D6B56E;
+	color:#E28133;
 	font-family:Georgia;
 }
 blockquote cite {
-	color:#D6B56E;
+	color:#E28133;
 	font-size:14px;
 	display:block;
 	margin-top:5px;

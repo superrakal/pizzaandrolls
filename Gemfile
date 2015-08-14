@@ -86,3 +86,4 @@ end
 group :production do
   gem 'unicorn', platform: :ruby
 end
+gem 'rails_admin-i18n', '~> 0.0.9'

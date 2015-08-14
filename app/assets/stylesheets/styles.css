@@ -25,7 +25,7 @@ h3 {
 }
 
 a,a:hover {
-  color: #D6B56E;
+  color: #E28133;
   text-decoration: none;
 }
 
@@ -49,8 +49,8 @@ img {
 
 .fade-carousel .carousel-indicators > li {
   margin: 0 2px;
-  background-color: #D6B56E;
-  border-color: #D6B56E;
+  background-color: #E28133;
+  border-color: #E28133;
   opacity: .4;
   border-radius: 0;
   width: 20px;
@@ -198,7 +198,7 @@ img {
 }
 
 #quote-carousel .carousel-indicators .active {
-  background: #D6B56E;
+  background: #E28133;
 }
 
 #quote-carousel img {
@@ -231,12 +231,12 @@ img {
   background: #F0F0F0;
   border-bottom: 10px solid #E2E2E2;
   border-radius: 0 0 15px 15px;
-  border-top: 1px solid #D6B56E;
+  border-top: 1px solid #E28133;
 }
 
 .box-area-icon i {
   font-size: 40px;
-  color: #D6B56E;
+  color: #E28133;
 }
 
 .news-events-box {
@@ -311,7 +311,7 @@ img {
 
 .nav>li>a:hover, .nav>li>a:focus {
   text-decoration: none;
-  background-color: #D6B56E;
+  background-color: #E28133;
   color: #FFFFFF;
 }
 
@@ -376,7 +376,7 @@ img {
 
 #main-nav ul.nav>li.active>a {
     color: white;
-    background-color: #D6B56E;
+    background-color: #E28133;
     border: 1px dotted #2B2A29;
 }
 
@@ -385,12 +385,12 @@ img {
 }
 
 .isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
-  background: #D6B56E;
+  background: #E28133;
   color: #fff;
 }
 
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
-  background: #D6B56E;
+  background: #E28133;
   color: #fff;
 }
 
@@ -404,11 +404,11 @@ img {
   -moz-transition: all .5s;
   -webkit-transition: all .5s;
   transition: all .5s;
-  background: #D6B56E;
+  background: #E28133;
 }
 
 .isFixed {
-  background: #D6B56E;
+  background: #E28133;
   -o-transition: all .5s;
   -ms-transition: all .5s;
   -moz-transition: all .5s;
@@ -438,7 +438,7 @@ header {
 .heading h2 {
   font-weight: 700;
   font-size: 35px;
-  color: #D6B56E;
+  color: #E28133;
   margin: 0;
   padding: 5px;
   text-transform: uppercase;
@@ -515,7 +515,7 @@ img#site-title {
 .grid figcaption {
   background: #300F00;
   padding: 12px 18px;
-  border-top: #D6B56E solid 1px;
+  border-top: #E28133 solid 1px;
 }
 /* Slideshow style */
 .slideshow {
@@ -729,7 +729,7 @@ textarea.contact {
 }
 
 .contact.submit {
-  background: #D6B56E;
+  background: #E28133;
   font-family: 'Montserrat',sans-serif;
   color: #1A1A1A;
   font-size: 16px;
@@ -752,7 +752,7 @@ textarea.contact {
 
 .error input,input.error,.error textarea,textarea.error {
   background-color: #ffffff;
-  border: 1px solid #D6B56E !Important;
+  border: 1px solid #E28133 !Important;
   -webkit-transition: border linear 0.2s,box-shadow linear 0.2s;
   -moz-transition: border linear 0.2s,box-shadow linear 0.2s;
   -o-transition: border linear 0.2s,box-shadow linear 0.2s;
@@ -834,7 +834,7 @@ textarea.contact {
 }
 
 .gototop i {
-  color: #D6B56E;
+  color: #E28133;
   line-height: 40px;
 }
 
@@ -858,12 +858,12 @@ blockquote:before {
   position: absolute;
   left: 10px;
   top: -30px;
-  color: #D6B56E;
+  color: #E28133;
   font-family: Georgia;
 }
 
 blockquote cite {
-  color: #D6B56E;
+  color: #E28133;
   font-size: 14px;
   display: block;
   margin-top: 5px;
@@ -1002,7 +1002,7 @@ blockquote footer, blockquote small, blockquote .small {
 @media screen and (max-width:768px) {
  
   #main-nav {
-    background: #D6B56E;
+    background: #E28133;
   }
 
   .navbar-nav>li {
@@ -1022,7 +1022,7 @@ blockquote footer, blockquote small, blockquote .small {
 
 @media (max-width: 655px) {
   .collapse {
-    background: #D6B56E;
+    background: #E28133;
   }
 
   .navbar.navbar-inverse.navbar-static-top a {
