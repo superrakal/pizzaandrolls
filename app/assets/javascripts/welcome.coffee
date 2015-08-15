@@ -1,5 +1,9 @@
 $ ->
   $(document).ready ->
+    $("#service .box-area").mouseenter ->
+      $(this).addClass('animated pulse')
+    $("#service .box-area").mouseleave ->
+      $(this).removeClass('animated pulse')
     $("body").niceScroll()
 
 $ ->
