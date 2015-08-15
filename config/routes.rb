@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sushi/index'
+
   post 'feedback/create'
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'

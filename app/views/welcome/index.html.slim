@@ -77,11 +77,12 @@
       .heading
         h2 Каталог
       .row
-        .col-md-4
-          .box-area
-            .box-area-icon
-              =image_tag "sushi.png"
-            h3 Суши
+        = link_to sushi_index_path,{ :'data-no-turbolink' =>  "true" }
+          .col-md-4
+            .box-area
+              .box-area-icon
+                =image_tag "sushi.png"
+              h3 Суши
         .col-md-4
           .box-area
             .box-area-icon
@@ -332,6 +333,23 @@
             br
             i.fa.fa-map-pin
             |&nbsp; пр.Ауэзова 28, ТЦ "Император", 0 этаж
+section#footer.footer
+      p.text-center
+        a.gototop href="#header"
+          i.fa.fa-angle-double-up.fa-2x
+      .container
+        ul
+          li
+            a href="#"
+              i.fa.fa-twitter
+          li
+            a href="#"
+              i.fa.fa-vk
+          li
+            a href="#"
+              i.fa.fa-instagram
+        p
+          | &copy; 2015 Сайт создал Егор Топольняк
 .modal.fade#move-modal
   .modal-dialog
     .modal-content

@@ -1,0 +1,32 @@
+.menu
+  nav.navbar.navbar-default.navbar-fixed-top
+    .container
+      .navbar-header
+        button#nav-toggle.navbar-toggle data-target="#main-nav" data-toggle="collapse" type="button"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      #main-nav.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li
+            = link_to welcome_index_path,{ :'data-no-turbolink' =>  "true" }
+              = image_tag 'logo.png', class:'img-logo'
+.container-fluid.items
+  section#sushi
+    .content
+      .content-inner
+        h1 Суши
+  .items-wrapper
+    - @sushi.each do |sushi|
+      .col-lg-3.col-md-4.col-sm-6.col-xs-12
+        .content
+          .image
+            = image_tag sushi.image
+          .title
+            = sushi.title
+          .description
+            = sushi.description
+          .price
+            = sushi.price
+            |&nbsp; тенге

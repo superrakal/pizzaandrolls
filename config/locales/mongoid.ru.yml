@@ -41,3 +41,11 @@ ru:
         few:   Напитки
         many:  Напитки
         other: Напитки
+
+    attributes:
+      item:
+        top: Элемент в ТОПе
+        title: Название
+        price: Цена
+        description: Описание
+        image: Изображение

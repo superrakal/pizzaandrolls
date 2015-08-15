@@ -1,6 +1,6 @@
 $ ->
-#  $('#move-modal').modal()
-  $("body").niceScroll()
+  $(document).ready ->
+    $("body").niceScroll()
 
 $ ->
   $('#callback').click ->

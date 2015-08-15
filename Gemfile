@@ -52,6 +52,7 @@ gem 'mongoid', '~>4.0.0'
 
 # Mongoid utils
 gem 'mongoid-paperclip', require: 'mongoid_paperclip'
+gem 'paperclip', '~>4.2.0'
 
 gem 'rails_admin', '~> 0.6.8'
 gem 'devise'
