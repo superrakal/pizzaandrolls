@@ -56121,3 +56121,88 @@ Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:47:04 +0300
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.slim within layouts/application (16.4ms)
 Completed 200 OK in 217ms (Views: 216.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:55:49 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (22.0ms)
+Completed 200 OK in 224ms (Views: 223.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:56:20 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.4ms)
+Completed 200 OK in 307ms (Views: 306.9ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 10:56:22 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3300ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3135ms
+  Rendered sushi/index.html.slim within layouts/application (11.5ms)
+Completed 200 OK in 219ms (Views: 219.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:56:24 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.8ms)
+Completed 200 OK in 206ms (Views: 205.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:56:27 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.2ms)
+Completed 200 OK in 202ms (Views: 202.1ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 10:56:56 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3304ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3881ms
+  Rendered sushi/index.html.slim within layouts/application (7.2ms)
+Completed 200 OK in 253ms (Views: 252.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:56:57 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.2ms)
+Completed 200 OK in 221ms (Views: 220.8ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:57:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.1ms)
+Completed 200 OK in 209ms (Views: 208.2ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 10:57:30 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3741ms
+  Rendered sushi/index.html.slim within layouts/application (6.3ms)
+Completed 200 OK in 255ms (Views: 254.9ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:57:32 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (18.5ms)
+Completed 200 OK in 255ms (Views: 254.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 10:57:35 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.5ms)
+Completed 200 OK in 220ms (Views: 219.7ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 10:57:39 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4301ms
+  Rendered sushi/index.html.slim within layouts/application (6.8ms)
+Completed 200 OK in 223ms (Views: 222.7ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 10:57:52 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4320ms
+  Rendered sushi/index.html.slim within layouts/application (6.8ms)
+Completed 200 OK in 223ms (Views: 223.0ms)
