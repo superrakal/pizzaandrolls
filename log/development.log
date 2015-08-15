@@ -56212,3 +56212,64 @@ Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 11:03:03 +0300
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.slim within layouts/application (16.1ms)
 Completed 200 OK in 232ms (Views: 231.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-15 11:56:00 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (60.9ms)
+Completed 200 OK in 375ms (Views: 368.0ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 11:56:08 +0300
+Processing by SushiController#index as HTML
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7017ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6170ms
+  Rendered sushi/index.html.slim within layouts/application (14.2ms)
+Completed 200 OK in 254ms (Views: 244.0ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 11:56:30 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3114ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3109ms
+  Rendered sushi/index.html.slim within layouts/application (11.9ms)
+Completed 200 OK in 224ms (Views: 223.9ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 11:57:08 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (17.1ms)
+Completed 200 OK in 213ms (Views: 212.5ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 11:57:12 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3693ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3309ms
+  Rendered sushi/index.html.slim within layouts/application (7.2ms)
+Completed 200 OK in 217ms (Views: 216.2ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 11:59:19 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3397ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3536ms
+  Rendered sushi/index.html.slim within layouts/application (12.2ms)
+Completed 200 OK in 212ms (Views: 211.6ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 12:01:02 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3219ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5896ms
+  Rendered sushi/index.html.slim within layouts/application (8.8ms)
+Completed 200 OK in 261ms (Views: 260.3ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 12:02:06 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2706ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2863ms
+  Rendered sushi/index.html.slim within layouts/application (7.0ms)
+Completed 200 OK in 268ms (Views: 268.0ms)
