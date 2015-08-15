@@ -21,6 +21,10 @@
     - @sushi.each do |sushi|
       .col-lg-3.col-md-4.col-sm-6.col-xs-12.wow.fadeIn
         .content
+          - if sushi.top
+            .top.wow.pulse data-wow-iteration="infinite"
+              i.fa.fa-star
+              |ТОП
           .image
             = image_tag sushi.image
           .title
