@@ -49,3 +49,5 @@ ru:
         price: Цена
         description: Описание
         image: Изображение
+      pizza:
+        small_price: Цена за малый круг

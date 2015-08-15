@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'drinks/index'
+
+  get 'salads/index'
+
+  get 'soup/index'
+
+  get 'pizza/index'
+
+  get 'rolls/index'
+
   get 'sushi/index'
 
   post 'feedback/create'

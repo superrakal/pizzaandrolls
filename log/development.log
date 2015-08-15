@@ -56667,3 +56667,1027 @@ Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 13:00:28 +0300
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.slim within layouts/application (54.2ms)
 Completed 200 OK in 269ms (Views: 268.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-15 16:37:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (56.5ms)
+Completed 200 OK in 416ms (Views: 415.5ms)
+
+
+Started GET "/asd" for 127.0.0.1 at 2015-08-15 16:38:01 +0300
+
+ActionController::RoutingError (No route matches [GET] "/asd"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (9.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (20.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-15 16:51:11 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (55.0ms)
+Completed 200 OK in 256ms (Views: 255.6ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-15 16:51:15 +0300
+Processing by RollsController#index as HTML
+Creating scope :page. Overwriting existing method Roll.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2832ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2172ms
+  Rendered rolls/index.html.slim within layouts/application (7.0ms)
+Completed 200 OK in 226ms (Views: 217.2ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-15 16:52:59 +0300
+Processing by RollsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2506ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1986ms
+  Rendered rolls/index.html.slim within layouts/application (2.2ms)
+Completed 200 OK in 254ms (Views: 253.5ms)
+
+
+Started GET "/rolls.jpeg" for 127.0.0.1 at 2015-08-15 16:52:59 +0300
+
+ActionController::RoutingError (No route matches [GET] "/rolls.jpeg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (9.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (20.9ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-15 16:53:00 +0300
+Processing by RollsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2844ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2201ms
+  Rendered rolls/index.html.slim within layouts/application (2.2ms)
+Completed 200 OK in 217ms (Views: 216.1ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-15 16:53:11 +0300
+Processing by RollsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2964ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1783ms
+  Rendered rolls/index.html.slim within layouts/application (2.2ms)
+Completed 200 OK in 249ms (Views: 248.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-08-15 16:53:21 +0300
+Processing by RailsAdmin::MainController#dashboard as HTML
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2928ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Soup"]}}} runtime: 0.2055ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Drink"]}}} runtime: 0.1628ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{}} runtime: 0.1328ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.1624ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Roll"]}}} runtime: 0.1619ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Salad"]}}} runtime: 0.1612ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Sushi"]}}} runtime: 0.1473ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{}} runtime: 0.1154ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (11.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (0.8ms)
+Completed 200 OK in 198ms (Views: 186.3ms)
+
+
+Started GET "/admin/roll?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 16:53:24 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"roll"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2682ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Roll"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2165ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Roll"]}}} runtime: 0.1497ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Roll"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.1209ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (10.9ms)
+Completed 200 OK in 23ms (Views: 15.5ms)
+
+
+Started GET "/admin/roll/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 16:53:28 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"roll"}
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_boolean.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_file_upload.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (12.6ms)
+Completed 200 OK in 25ms (Views: 18.6ms)
+
+
+Started POST "/admin/roll/new" for 127.0.0.1 at 2015-08-15 16:53:38 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tRexpW0Cz+KjzdpHqOGqzkhB78H2cbjXe7IpNqM6onhdQ3vZvK2sx3xrEBJB33W7+j4Fc9MLgZxVi7s06lISqQ==", "roll"=>{"top"=>"1", "title"=>"Тест", "price"=>"100", "description"=>"увувувувву", "image"=>#<ActionDispatch::Http::UploadedFile:0x0000000918e1c0 @tempfile=#<Tempfile:/tmp/RackMultipart20150815-2943-1t4dxrj.jpg>, @original_filename="sushistyle_sushi_ugor.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"roll[image]\"; filename=\"sushistyle_sushi_ugor.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "return_to"=>"http://localhost:3000/admin/roll", "_save"=>"", "model_name"=>"roll"}
+  MOPED: 127.0.0.1:27017 INSERT       database=burgerclub_development collection=items documents=[{"_id"=>BSON::ObjectId('55cf4462d3054d0b7f000000'), "_type"=>"Roll", "top"=>true, "title"=>"Тест", "price"=>100, "description"=>"увувувувву", "image_file_name"=>"sushistyle_sushi_ugor.jpg", "image_content_type"=>"image/jpeg", "image_file_size"=>137644, "image_fingerprint"=>"86d6cbe8b8748fe8da6ff4d74269f09c", "image_updated_at"=>2015-08-15 13:53:38 UTC}] flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.5023ms
+Redirected to http://localhost:3000/admin/roll
+Completed 302 Found in 37ms
+
+
+Started GET "/admin/roll" for 127.0.0.1 at 2015-08-15 16:53:38 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"roll"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Roll"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3738ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Roll"]}}} runtime: 0.3445ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Roll"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2229ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (15.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (3.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (2.8ms)
+Completed 200 OK in 194ms (Views: 190.5ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-15 16:53:40 +0300
+Processing by RollsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3567ms
+  Rendered rolls/index.html.slim within layouts/application (3.2ms)
+Completed 200 OK in 217ms (Views: 216.9ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 16:56:03 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (17.8ms)
+Completed 200 OK in 220ms (Views: 219.8ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 16:57:46 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.8ms)
+Completed 200 OK in 372ms (Views: 371.9ms)
+
+
+Started GET "/admin/roll" for 127.0.0.1 at 2015-08-15 16:58:20 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"roll"}
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5693ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Roll"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2806ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Roll"]}}} runtime: 0.3011ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Roll"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3664ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (29.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (1.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (4.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (7.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (4.4ms)
+Completed 200 OK in 485ms (Views: 372.9ms)
+
+
+Started GET "/admin/pizza?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 16:58:24 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"pizza"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3686ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.2182ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2313ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (12.1ms)
+Completed 200 OK in 23ms (Views: 17.2ms)
+
+
+Started GET "/admin/pizza/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 16:58:27 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"pizza"}
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_boolean.html.haml (2.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (1.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_file_upload.html.haml (3.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (12.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (38.5ms)
+Completed 200 OK in 51ms (Views: 44.2ms)
+
+
+Started GET "/admin/pizza/new" for 127.0.0.1 at 2015-08-15 16:58:59 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"model_name"=>"pizza"}
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_boolean.html.haml (2.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_file_upload.html.haml (2.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (2.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/application (26.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (4.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (7.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (5.1ms)
+Completed 200 OK in 477ms (Views: 364.9ms)
+
+
+Started GET "/admin/pizza?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 16:59:04 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"pizza"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5288ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2058ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.1915ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.1657ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (21.7ms)
+Completed 200 OK in 31ms (Views: 26.5ms)
+
+
+Started GET "/admin/pizza?model_name=pizza&sort=price&_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 16:59:08 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"pizza", "sort"=>"price", "_pjax"=>"[data-pjax-container]"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"price"=>1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3636ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.2496ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"price"=>1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2131ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (18.8ms)
+Completed 200 OK in 31ms (Views: 24.1ms)
+
+
+Started GET "/admin/pizza?model_name=pizza&sort=price&sort_reverse=true&_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 16:59:09 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"pizza", "sort"=>"price", "sort_reverse"=>"true", "_pjax"=>"[data-pjax-container]"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"price"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4461ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.2627ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"price"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2065ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (11.9ms)
+Completed 200 OK in 23ms (Views: 16.9ms)
+
+
+Started GET "/admin/pizza?model_name=pizza&sort=price&_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 16:59:10 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"pizza", "sort"=>"price", "_pjax"=>"[data-pjax-container]"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"price"=>1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3400ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.1919ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"price"=>1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2410ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (10.7ms)
+Completed 200 OK in 21ms (Views: 15.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 17:00:09 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (88.7ms)
+Completed 200 OK in 407ms (Views: 406.4ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-15 17:00:11 +0300
+Processing by PizzaController#index as HTML
+Creating scope :page. Overwriting existing method Pizza.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2892ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1802ms
+  Rendered pizza/index.html.slim within layouts/application (7.5ms)
+Completed 200 OK in 238ms (Views: 231.0ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-15 17:00:52 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2911ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1764ms
+  Rendered pizza/index.html.slim within layouts/application (7.6ms)
+Completed 200 OK in 274ms (Views: 273.4ms)
+
+
+Started GET "/admin/pizza/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 17:00:59 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"pizza"}
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_boolean.html.haml (0.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_file_upload.html.haml (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (1.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (21.6ms)
+Completed 200 OK in 38ms (Views: 32.1ms)
+
+
+Started POST "/admin/pizza/new" for 127.0.0.1 at 2015-08-15 17:01:08 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M60WrIf+4ZVngIhEFktqKROSLPmhVYu08XQGvO983xPb+dzQVlGCsLgmQhH/dbVcoe3GS4Qvsv/fTZS+phRvwg==", "pizza"=>{"top"=>"1", "title"=>"12312321", "description"=>"23213213", "image"=>#<ActionDispatch::Http::UploadedFile:0x00000007d31678 @tempfile=#<Tempfile:/tmp/RackMultipart20150815-7184-1ax006r.jpg>, @original_filename="rolls.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pizza[image]\"; filename=\"rolls.jpg\"\r\nContent-Type: image/jpeg\r\n">, "price"=>"21321312", "small_price"=>"213213213"}, "return_to"=>"http://localhost:3000/admin/pizza?model_name=pizza&sort=price", "_save"=>"", "model_name"=>"pizza"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4885ms
+  MOPED: 127.0.0.1:27017 INSERT       database=burgerclub_development collection=items documents=[{"_id"=>BSON::ObjectId('55cf4624d3054d1c10000000'), "_type"=>"Pizza", "top"=>true, "title"=>"12312321", "description"=>"23213213", "image_file_name"=>"rolls.jpg", "image_content_type"=>"image/jpeg", "image_file_size"=>405282, "image_fingerprint"=>"cd506a0438f2c01d92b390b8c020ba92", "image_updated_at"=>2015-08-15 14:01:08 UTC, "price"=>21321312, "small_price"=>213213213}] flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2990ms
+Redirected to http://localhost:3000/admin/pizza?model_name=pizza&sort=price
+Completed 302 Found in 36ms
+
+
+Started GET "/admin/pizza?model_name=pizza&sort=price" for 127.0.0.1 at 2015-08-15 17:01:08 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"pizza", "sort"=>"price"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"price"=>1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4561ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.3471ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Pizza"]}}, "$orderby"=>{"price"=>1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3929ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (22.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.9ms)
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (11.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (4.1ms)
+Completed 200 OK in 232ms (Views: 227.8ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-15 17:01:10 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4380ms
+  Rendered pizza/index.html.slim within layouts/application (3.6ms)
+Completed 200 OK in 224ms (Views: 223.0ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-15 17:01:47 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3467ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2482ms
+  Rendered pizza/index.html.slim within layouts/application (9.1ms)
+Completed 200 OK in 237ms (Views: 236.2ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-15 17:02:17 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3805ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2737ms
+  Rendered pizza/index.html.slim within layouts/application (10.7ms)
+Completed 200 OK in 233ms (Views: 232.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 17:02:38 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.7ms)
+Completed 200 OK in 232ms (Views: 231.4ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-15 17:05:28 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3271ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2339ms
+  Rendered pizza/index.html.slim within layouts/application (4.0ms)
+Completed 200 OK in 234ms (Views: 233.6ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-15 17:05:51 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3657ms
+  Rendered pizza/index.html.slim within layouts/application (3.2ms)
+Completed 200 OK in 226ms (Views: 225.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 17:09:22 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (62.8ms)
+Completed 200 OK in 573ms (Views: 572.2ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-15 17:09:24 +0300
+Processing by SoupController#index as HTML
+Creating scope :page. Overwriting existing method Soup.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3643ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2084ms
+  Rendered soup/index.html.slim within layouts/application (8.3ms)
+Completed 200 OK in 248ms (Views: 241.1ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-15 17:09:33 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3061ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1833ms
+  Rendered soup/index.html.slim within layouts/application (8.3ms)
+Completed 200 OK in 234ms (Views: 233.8ms)
+
+
+Started GET "/admin/soup?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 17:09:43 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"soup"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Soup"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3586ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Soup"]}}} runtime: 0.2513ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Soup"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.1931ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (11.6ms)
+Completed 200 OK in 22ms (Views: 16.7ms)
+
+
+Started GET "/admin/soup/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 17:09:43 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"soup"}
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_boolean.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_file_upload.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (11.2ms)
+Completed 200 OK in 20ms (Views: 16.3ms)
+
+
+Started POST "/admin/soup/new" for 127.0.0.1 at 2015-08-15 17:09:51 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RtY1+wqfCWII8o0da9/URM1EVIPzHcUhiX/5dhjsXZSugv+H2zBqR9dUR0iC4Qsxfzu+MdZn/GqnRmt0UYTtRQ==", "soup"=>{"top"=>"1", "title"=>"213213", "description"=>"213213123", "image"=>#<ActionDispatch::Http::UploadedFile:0x0000000808f950 @tempfile=#<Tempfile:/tmp/RackMultipart20150815-7184-10455gr.jpg>, @original_filename="soups.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"soup[image]\"; filename=\"soups.jpg\"\r\nContent-Type: image/jpeg\r\n">, "price"=>"21321321"}, "return_to"=>"http://localhost:3000/admin/soup", "_save"=>"", "model_name"=>"soup"}
+  MOPED: 127.0.0.1:27017 INSERT       database=burgerclub_development collection=items documents=[{"_id"=>BSON::ObjectId('55cf482fd3054d1c10000001'), "_type"=>"Soup", "top"=>true, "title"=>"213213", "description"=>"213213123", "image_file_name"=>"soups.jpg", "image_content_type"=>"image/jpeg", "image_file_size"=>1537104, "image_fingerprint"=>"e6dead0d7299e942fd19751391a2d49e", "image_updated_at"=>2015-08-15 14:09:51 UTC, "price"=>21321321}] flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.5369ms
+Redirected to http://localhost:3000/admin/soup
+Completed 302 Found in 36ms
+
+
+Started GET "/admin/soup" for 127.0.0.1 at 2015-08-15 17:09:51 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"soup"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Soup"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4015ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Soup"]}}} runtime: 0.3259ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Soup"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2737ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (16.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.9ms)
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (10.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (3.4ms)
+Completed 200 OK in 221ms (Views: 216.9ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-15 17:09:52 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4411ms
+  Rendered soup/index.html.slim within layouts/application (3.8ms)
+Completed 200 OK in 250ms (Views: 249.9ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-15 17:10:30 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3045ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2284ms
+  Rendered soup/index.html.slim within layouts/application (10.3ms)
+Completed 200 OK in 248ms (Views: 247.2ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-15 17:10:38 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2708ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2003ms
+  Rendered soup/index.html.slim within layouts/application (9.4ms)
+Completed 200 OK in 238ms (Views: 237.8ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 17:12:24 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (17.3ms)
+Completed 200 OK in 254ms (Views: 253.7ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-15 17:12:39 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4697ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4246ms
+  Rendered soup/index.html.slim within layouts/application (12.6ms)
+Completed 200 OK in 248ms (Views: 248.0ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-15 17:13:46 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3452ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2813ms
+  Rendered soup/index.html.slim within layouts/application (4.1ms)
+Completed 200 OK in 254ms (Views: 253.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 17:13:54 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (17.5ms)
+Completed 200 OK in 253ms (Views: 252.3ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-15 17:15:29 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3185ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2372ms
+  Rendered soup/index.html.slim within layouts/application (3.7ms)
+Completed 200 OK in 245ms (Views: 244.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 17:17:19 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (49.8ms)
+Completed 200 OK in 514ms (Views: 513.7ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:17:21 +0300
+Processing by SaladsController#index as HTML
+Creating scope :page. Overwriting existing method Salad.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3457ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1912ms
+  Rendered salads/index.html.slim within layouts/application (8.0ms)
+Completed 200 OK in 246ms (Views: 239.5ms)
+
+
+Started GET "/salads.jpg" for 127.0.0.1 at 2015-08-15 17:17:21 +0300
+
+ActionController::RoutingError (No route matches [GET] "/salads.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (10.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (22.3ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:17:51 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3512ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2158ms
+  Rendered salads/index.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 242ms (Views: 241.8ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:17:52 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2842ms
+  Rendered salads/index.html.slim within layouts/application (1.7ms)
+Completed 200 OK in 229ms (Views: 228.8ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:18:13 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3068ms
+  Rendered salads/index.html.slim within layouts/application (1.7ms)
+Completed 200 OK in 242ms (Views: 241.9ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:18:28 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4025ms
+  Rendered salads/index.html.slim within layouts/application (3.0ms)
+Completed 200 OK in 245ms (Views: 244.1ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:18:29 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3953ms
+  Rendered salads/index.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 240ms (Views: 239.2ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:18:56 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3247ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2241ms
+  Rendered salads/index.html.slim within layouts/application (8.5ms)
+Completed 200 OK in 248ms (Views: 247.7ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:19:06 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3166ms
+  Rendered salads/index.html.slim within layouts/application (8.3ms)
+Completed 200 OK in 252ms (Views: 251.3ms)
+
+
+Started GET "/salads.jpg" for 127.0.0.1 at 2015-08-15 17:19:07 +0300
+
+ActionController::RoutingError (No route matches [GET] "/salads.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (10.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (21.8ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:19:35 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2863ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1929ms
+  Rendered salads/index.html.slim within layouts/application (2.1ms)
+Completed 200 OK in 248ms (Views: 247.8ms)
+
+
+Started GET "/salads.jpg" for 127.0.0.1 at 2015-08-15 17:19:36 +0300
+
+ActionController::RoutingError (No route matches [GET] "/salads.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (10.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.3ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:19:36 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3192ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2189ms
+  Rendered salads/index.html.slim within layouts/application (2.4ms)
+Completed 200 OK in 243ms (Views: 242.5ms)
+
+
+Started GET "/salads.jpg" for 127.0.0.1 at 2015-08-15 17:19:37 +0300
+
+ActionController::RoutingError (No route matches [GET] "/salads.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (9.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (20.5ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:19:48 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2470ms
+  Rendered salads/index.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 291ms (Views: 290.6ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:19:53 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2844ms
+  Rendered salads/index.html.slim within layouts/application (1.7ms)
+Completed 200 OK in 298ms (Views: 297.5ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:19:55 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2837ms
+  Rendered salads/index.html.slim within layouts/application (2.0ms)
+Completed 200 OK in 237ms (Views: 236.6ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:20:57 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2978ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1907ms
+  Rendered salads/index.html.slim within layouts/application (2.3ms)
+Completed 200 OK in 292ms (Views: 292.0ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:21:08 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3686ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2260ms
+  Rendered salads/index.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 298ms (Views: 297.1ms)
+
+
+Started GET "/admin/salad?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 17:21:15 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"salad"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3192ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Salad"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2337ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Salad"]}}} runtime: 0.1807ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Salad"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.1702ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (12.1ms)
+Completed 200 OK in 22ms (Views: 17.4ms)
+
+
+Started GET "/admin/salad/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 17:21:16 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"salad"}
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_boolean.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_file_upload.html.haml (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (12.4ms)
+Completed 200 OK in 34ms (Views: 28.4ms)
+
+
+Started POST "/admin/salad/new" for 127.0.0.1 at 2015-08-15 17:21:22 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1LmjyXi6sJcb+t1zZ+q4iFR6ysRNRW1RZyWIBbs8hJw87Wm1qRXTssRcFyaO1Gf95gUgdmg/VBpJHBoH8lQ0TQ==", "salad"=>{"top"=>"1", "title"=>"123123", "description"=>"123213123", "image"=>#<ActionDispatch::Http::UploadedFile:0x000000087a8c00 @tempfile=#<Tempfile:/tmp/RackMultipart20150815-7184-1yb8728.jpg>, @original_filename="soups.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"salad[image]\"; filename=\"soups.jpg\"\r\nContent-Type: image/jpeg\r\n">, "price"=>"2312131"}, "return_to"=>"http://localhost:3000/admin/salad", "_save"=>"", "model_name"=>"salad"}
+  MOPED: 127.0.0.1:27017 INSERT       database=burgerclub_development collection=items documents=[{"_id"=>BSON::ObjectId('55cf4ae2d3054d1c10000002'), "_type"=>"Salad", "top"=>true, "title"=>"123123", "description"=>"123213123", "image_file_name"=>"soups.jpg", "image_content_type"=>"image/jpeg", "image_file_size"=>1537104, "image_fingerprint"=>"e6dead0d7299e942fd19751391a2d49e", "image_updated_at"=>2015-08-15 14:21:22 UTC, "price"=>2312131}] flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.7105ms
+Redirected to http://localhost:3000/admin/salad
+Completed 302 Found in 40ms
+
+
+Started GET "/admin/salad" for 127.0.0.1 at 2015-08-15 17:21:22 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"salad"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Salad"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.5701ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Salad"]}}} runtime: 0.3145ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Salad"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2670ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (18.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (2.1ms)
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (11.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+Completed 200 OK in 231ms (Views: 226.2ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-15 17:21:23 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3996ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2892ms
+  Rendered salads/index.html.slim within layouts/application (13.9ms)
+Completed 200 OK in 243ms (Views: 242.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 17:24:09 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (62.4ms)
+Completed 200 OK in 551ms (Views: 550.6ms)
+
+
+Started GET "/drinks/index" for 127.0.0.1 at 2015-08-15 17:24:10 +0300
+Processing by DrinksController#index as HTML
+Creating scope :page. Overwriting existing method Drink.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3726ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Drink"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2239ms
+  Rendered drinks/index.html.slim within layouts/application (10.8ms)
+Completed 200 OK in 281ms (Views: 273.5ms)
+
+
+Started GET "/admin/drink?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 17:24:18 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"drink"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3355ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Drink"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2522ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Drink"]}}} runtime: 0.1757ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Drink"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2120ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (12.9ms)
+Completed 200 OK in 24ms (Views: 18.4ms)
+
+
+Started GET "/admin/drink/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-15 17:24:19 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"drink"}
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_boolean.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_file_upload.html.haml (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (14.0ms)
+Completed 200 OK in 37ms (Views: 30.3ms)
+
+
+Started POST "/admin/drink/new" for 127.0.0.1 at 2015-08-15 17:24:26 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yF27K1JrNNadGklyecwNgxg4iycmczHEy8pOAK4XHoUgCXFXg8RX80K8gyeQ8tL2qkdhlQMJCI/l89wC53+uVA==", "drink"=>{"top"=>"1", "title"=>"213213", "description"=>"213213123", "image"=>#<ActionDispatch::Http::UploadedFile:0x000000087c30f0 @tempfile=#<Tempfile:/tmp/RackMultipart20150815-7184-yzjz28.jpg>, @original_filename="rolls.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"drink[image]\"; filename=\"rolls.jpg\"\r\nContent-Type: image/jpeg\r\n">, "price"=>"21312312"}, "return_to"=>"http://localhost:3000/admin/drink", "_save"=>"", "model_name"=>"drink"}
+  MOPED: 127.0.0.1:27017 INSERT       database=burgerclub_development collection=items documents=[{"_id"=>BSON::ObjectId('55cf4b9ad3054d1c10000003'), "_type"=>"Drink", "top"=>true, "title"=>"213213", "description"=>"213213123", "image_file_name"=>"rolls.jpg", "image_content_type"=>"image/jpeg", "image_file_size"=>405282, "image_fingerprint"=>"cd506a0438f2c01d92b390b8c020ba92", "image_updated_at"=>2015-08-15 14:24:26 UTC, "price"=>21312312}] flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.5372ms
+Redirected to http://localhost:3000/admin/drink
+Completed 302 Found in 33ms
+
+
+Started GET "/admin/drink" for 127.0.0.1 at 2015-08-15 17:24:26 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"drink"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Drink"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4139ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Drink"]}}} runtime: 0.2928ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Drink"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2344ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (18.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.8ms)
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (11.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (3.3ms)
+Completed 200 OK in 223ms (Views: 219.7ms)
+
+
+Started GET "/drinks/index" for 127.0.0.1 at 2015-08-15 17:24:28 +0300
+Processing by DrinksController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3145ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Drink"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2377ms
+  Rendered drinks/index.html.slim within layouts/application (4.3ms)
+Completed 200 OK in 247ms (Views: 246.8ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 17:24:33 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (17.5ms)
+Completed 200 OK in 264ms (Views: 263.3ms)

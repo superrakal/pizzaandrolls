@@ -84,30 +84,35 @@
                 =image_tag "sushi.png"
               h3 Суши
         .col-md-4
-          .box-area
-            .box-area-icon
-              =image_tag "rolls.png"
-            h3 Роллы
+          = link_to rolls_index_path,{ :'data-no-turbolink' =>  "true" }
+            .box-area
+              .box-area-icon
+                =image_tag "rolls.png"
+              h3 Роллы
         .col-md-4
-          .box-area
-            .box-area-icon
-              =image_tag "pizza.png"
-            h3 Пицца
+          = link_to pizza_index_path, {:'data-no-turbolink' => "true"}
+            .box-area
+              .box-area-icon
+                =image_tag "pizza.png"
+              h3 Пицца
         .col-md-4
-          .box-area
-            .box-area-icon
-              =image_tag "soup.png"
-            h3 Горячее
+          = link_to soup_index_path, {:'data-no-turbolink' => "true"}
+            .box-area
+              .box-area-icon
+                =image_tag "soup.png"
+              h3 Горячее
         .col-md-4
-          .box-area
-            .box-area-icon
-              =image_tag "salad.png"
-            h3 Салаты
+          = link_to salads_index_path, {:'data-no-turbolink' => "true"}
+            .box-area
+              .box-area-icon
+                =image_tag "salad.png"
+              h3 Салаты
         .col-md-4
-          .box-area
-            .box-area-icon
-              =image_tag "drinks.png"
-            h3 Напитки
+          = link_to drinks_index_path, {:'data-no-turbolink' => "true"}
+            .box-area
+              .box-area-icon
+                =image_tag "drinks.png"
+              h3 Напитки
   /! gallery
   section#gallery.gallery.page-section
     .container

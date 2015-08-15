@@ -14,25 +14,25 @@
               = image_tag 'logo.png', class:'img-logo'
 .container-fluid.items
   .row
-    section#sushi
+    section#soups
       .content
         .content-inner
-          h1 Суши
+          h1 Горячее
   .items-wrapper
-    - @sushi.each do |sushi|
+    - @soups.each do |soup|
       .col-lg-3.col-md-4.col-sm-6.col-xs-12.wow.fadeIn
         .content
-          - if sushi.top
+          - if soup.top
             .top.wow.pulse data-wow-iteration="infinite"
               i.fa.fa-star
               |ТОП
           .image
-            = image_tag sushi.image
+            = image_tag soup.image
           .title
-            = sushi.title
+            = soup.title
           .description
-            = sushi.description
+            = soup.description
           .price
             span.badge
-              = sushi.price
+              = soup.price
               |&nbsp; тенге
