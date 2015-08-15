@@ -56206,3 +56206,9 @@ Processing by SushiController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4320ms
   Rendered sushi/index.html.slim within layouts/application (6.8ms)
 Completed 200 OK in 223ms (Views: 223.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 11:03:03 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.1ms)
+Completed 200 OK in 232ms (Views: 231.9ms)
