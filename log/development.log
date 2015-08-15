@@ -56364,3 +56364,33 @@ Processing by SushiController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2923ms
   Rendered sushi/index.html.slim within layouts/application (11.8ms)
 Completed 200 OK in 227ms (Views: 226.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-15 12:24:25 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (16.0ms)
+Completed 200 OK in 219ms (Views: 218.5ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 12:24:28 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2854ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2973ms
+  Rendered sushi/index.html.slim within layouts/application (7.2ms)
+Completed 200 OK in 211ms (Views: 210.3ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 12:25:09 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2820ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3045ms
+  Rendered sushi/index.html.slim within layouts/application (7.0ms)
+Completed 200 OK in 256ms (Views: 255.4ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-15 12:25:19 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3009ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3181ms
+  Rendered sushi/index.html.slim within layouts/application (7.0ms)
+Completed 200 OK in 254ms (Views: 253.6ms)
