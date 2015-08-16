@@ -175,31 +175,34 @@
           | Здесь вы можете прочитать последние отзывы о нас
       .row
         .col-md-12
-          #quote-carousel.carousel.slide data-ride="carousel"
-            /! Bottom Carousel Indicators
-            ol.carousel-indicators
-              li.active data-slide-to="0" data-target="#quote-carousel"
-              - for i in 1..(@comments.count-1)
-                li data-slide-to="#{i}" data-target="#quote-carousel"
-            /! Carousel Slides / Quotes
-            .carousel-inner
-              .item.active
-                blockquote
-                  .row
-                    .col-sm-12
-                      p
-                        = @comments[0].text
-                      small
-                        = @comments[0].name
-              - for i in 1..(@comments.count-1)
-                .item
+          - if @comments.count > 0
+            #quote-carousel.carousel.slide data-ride="carousel"
+              /! Bottom Carousel Indicators
+              ol.carousel-indicators
+                li.active data-slide-to="0" data-target="#quote-carousel"
+                - for i in 1..(@comments.count-1)
+                  li data-slide-to="#{i}" data-target="#quote-carousel"
+              /! Carousel Slides / Quotes
+              .carousel-inner
+                .item.active
                   blockquote
                     .row
                       .col-sm-12
                         p
-                          = @comments[i].text
+                          = @comments[0].text
                         small
-                          = @comments[i].name
+                          = @comments[0].name
+                - for i in 1..(@comments.count-1)
+                  .item
+                    blockquote
+                      .row
+                        .col-sm-12
+                          p
+                            = @comments[i].text
+                          small
+                            = @comments[i].name
+          - else
+            h4.text-center.text-uppercase стань первым, кто оставит отзыв!
 
   /! feedback
   section#feedback-add.page-section
