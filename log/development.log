@@ -62169,3 +62169,135 @@ Processing by WelcomeController#index as HTML
   MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1514ms
   Rendered welcome/index.html.slim within layouts/application (16.5ms)
 Completed 200 OK in 261ms (Views: 260.7ms)
+
+
+Started GET "/admin/discount" for 127.0.0.1 at 2015-08-16 20:11:41 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"discount"}
+Creating scope :page. Overwriting existing method Discount.page.
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5648ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2615ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5608ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.3164ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3834ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (56.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (1.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (3.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (8.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (4.8ms)
+Completed 200 OK in 499ms (Views: 379.4ms)
+
+
+Started GET "/admin/discount/55d0bc36d3054d1f2e000001/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 20:11:47 +0300
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"discount", "id"=>"55d0bc36d3054d1f2e000001"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4227ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (6.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (4.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5145ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{}} runtime: 0.1895ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4318ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>{"$in"=>[BSON::ObjectId('55d0bc36d3054d1f2e000001')]}, "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2513ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (10.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (2.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (39.2ms)
+Completed 200 OK in 51ms (Views: 45.9ms)
+
+
+Started GET "/admin/share?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 20:11:51 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"share"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4580ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{}} runtime: 0.3128ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2334ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (16.5ms)
+Completed 200 OK in 36ms (Views: 31.4ms)
+
+
+Started GET "/admin/drink?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 20:11:55 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"drink"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Drink"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4592ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>{"$in"=>[BSON::ObjectId('55d0bc36d3054d1f2e000001')]}, "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3247ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Drink"]}}} runtime: 0.3045ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"_type"=>{"$in"=>["Drink"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2637ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (18.8ms)
+Completed 200 OK in 30ms (Views: 23.3ms)
+
+
+Started GET "/admin/drink/55cf4b9ad3054d1c10000003/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 20:11:56 +0300
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"drink", "id"=>"55cf4b9ad3054d1c10000003"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4b9ad3054d1c10000003'), "_type"=>{"$in"=>["Drink"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4396ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_boolean.html.haml (2.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_file_upload.html.haml (4.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4499ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.2551ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2723ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_select.html.haml (6.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (29.7ms)
+Completed 200 OK in 44ms (Views: 36.2ms)
+
+
+Started GET "/admin/discount?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 20:12:02 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"discount"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4740ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7372ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.4184ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3109ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (30.6ms)
+Completed 200 OK in 43ms (Views: 37.4ms)
+
+
+Started GET "/admin/discount" for 127.0.0.1 at 2015-08-16 20:16:35 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"discount"}
+Creating scope :page. Overwriting existing method Discount.page.
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5779ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2849ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4039ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.3073ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3030ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (33.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (4.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (10.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (5.5ms)
+Completed 200 OK in 715ms (Views: 354.5ms)
+
+
+Started GET "/admin/discount/55d0bc36d3054d1f2e000001/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 20:16:43 +0300
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"discount", "id"=>"55d0bc36d3054d1f2e000001"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3941ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (1.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6471ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{}} runtime: 0.2253ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5441ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>{"$in"=>[BSON::ObjectId('55d0bc36d3054d1f2e000001')]}, "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2778ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (10.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (2.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (30.6ms)
+Completed 200 OK in 45ms (Views: 37.2ms)

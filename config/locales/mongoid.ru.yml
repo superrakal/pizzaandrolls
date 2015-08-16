@@ -7,10 +7,10 @@ ru:
         many:  Отзывы
         other: Отзывы
       item:
-        one:   Элемент
-        few:   Элементы
-        many:  Элементов
-        other: Элементы
+        one:   Товар
+        few:   Товары
+        many:  Товаров
+        other: Товары
       sushi:
         one:   Суши
         few:   Суши
@@ -41,6 +41,16 @@ ru:
         few:   Напитки
         many:  Напитки
         other: Напитки
+      share:
+        one:   Акция
+        few:   Акции
+        many:  Акции
+        other: Акции
+      discount:
+        one:   Скидка
+        few:   Скидки
+        many:  Скидки
+        other: Скидки
 
     attributes:
       item:
@@ -49,6 +59,7 @@ ru:
         price: Цена
         description: Описание
         image: Изображение
+        discount: Скидка
       pizza:
         small_price: Цена за малый круг
       comment:
@@ -56,3 +67,11 @@ ru:
         email: Email
         text: Отзыв
         approved: Одобрен
+      share:
+        name: Название акции
+        from: Дата начала
+        to: Дата
+      discount:
+        percent: Процент скидки
+        items: Скидочные товары
+
