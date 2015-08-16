@@ -59947,3 +59947,33 @@ Processing by WelcomeController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1714ms
   Rendered welcome/index.html.slim within layouts/application (16.2ms)
 Completed 200 OK in 392ms (Views: 391.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-08-16 18:26:18 +0300
+Processing by RailsAdmin::MainController#dashboard as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2818ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Soup"]}}} runtime: 0.1967ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Drink"]}}} runtime: 0.2155ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{}} runtime: 0.1791ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.2112ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Roll"]}}} runtime: 0.1960ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Salad"]}}} runtime: 0.2093ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Sushi"]}}} runtime: 0.1640ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{}} runtime: 0.1299ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (12.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (0.7ms)
+Completed 200 OK in 188ms (Views: 182.1ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 18:26:21 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"comment"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4492ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2213ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{}} runtime: 0.1996ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.1690ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (22.6ms)
+Completed 200 OK in 31ms (Views: 26.7ms)
