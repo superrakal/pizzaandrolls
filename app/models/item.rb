@@ -13,7 +13,7 @@ class Item
 
   def price_with_discount
     if self.discount.present?
-      self.price * self.discount.percent / 100
+      self.price * (100-self.discount.percent) / 100
     else
       self.price
     end
