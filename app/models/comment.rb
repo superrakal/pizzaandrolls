@@ -4,5 +4,6 @@ class Comment
   field :name
   field :email
   field :text
+  field :approved, type: Boolean, default: false
 
 end

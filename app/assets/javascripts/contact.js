@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
 		
 		//organize the data
 		
-		var data = 'name=' + name.val() + '&email=' + email.val() + '&comment='  + encodeURIComponent(comment.val());
+		var data = 'name=' + name.val() + '&email=' + email.val() + '&text='  + encodeURIComponent(comment.val());
 
 		//disabled all the text fields
 		$('.text').attr('disabled','true');
@@ -52,25 +52,14 @@ jQuery(document).ready(function ($) {
 		
 		//start the ajax
 		$.ajax({
-			//this is the php file that processes the data and sends email
 			url: "/feedback/create?"+data,
 			
 			//GET method is used
 			type: "POST",
-
-			//success
-			success: function (html) {				
-				//if contact.php returned 1/true (send mail success)
-				if (html==1) {
-				
-					//show the success message
-					$('.done').fadeIn('slow');
-					
-					$(".form").find('input[type=text], textarea').val("");
-					
-				//if contact.php returned 0/false (send mail failed)
-				} else alert('Sorry, unexpected error. Please try again later.');				
-			}		
+			success: function () {
+                $('.done').fadeIn('slow');
+                $("#contactform").find('input[type=text], textarea, input[type=email]').val("");
+			}
 		});
 		
 		//cancel the submit button default behaviours

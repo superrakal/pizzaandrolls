@@ -12,6 +12,7 @@
           li
             = link_to welcome_index_path,{ :'data-no-turbolink' =>  "true" }
               = image_tag 'logo.png', class:'img-logo'
+              span.logo.hidden-sm.hidden-xs Каталог
 .container-fluid.items
   .row
     section#pizza
@@ -32,13 +33,13 @@
             = pizza.title
           .description
             = pizza.description
-          .price
+          .price.wow.lightSpeedIn data-wow-offset="100"
             span.badge
-              |Цена за большой круг: &nbsp
+              |Большой круг: &nbsp
               = pizza.price
               |&nbsp; тенге
             br
             span.badge
-              |Цена за малый круг: &nbsp
+              |Малый круг: &nbsp
               = pizza.small_price
               |&nbsp; тенге

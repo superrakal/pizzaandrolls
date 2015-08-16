@@ -51,3 +51,8 @@ ru:
         image: Изображение
       pizza:
         small_price: Цена за малый круг
+      comment:
+        name: Имя
+        email: Email
+        text: Отзыв
+        approved: Одобрен

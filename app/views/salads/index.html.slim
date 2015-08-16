@@ -12,6 +12,7 @@
           li
             = link_to welcome_index_path,{ :'data-no-turbolink' =>  "true" }
               = image_tag 'logo.png', class:'img-logo'
+              span.logo.hidden-sm.hidden-xs Каталог
 .container-fluid.items
   .row
     section#salads
@@ -32,7 +33,7 @@
             = salad.title
           .description
             = salad.description
-          .price
+          .price.wow.lightSpeedIn data-wow-offset="100"
             span.badge
               = salad.price
               |&nbsp; тенге
