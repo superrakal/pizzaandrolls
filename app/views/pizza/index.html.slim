@@ -21,7 +21,7 @@
           h1 Пицца
   .items-wrapper
     - @pizza.each do |pizza|
-      .col-lg-3.col-md-4.col-sm-6.col-xs-12.wow.fadeIn
+      .col-lg-3.col-md-4.col-sm-6.col-xs-12.wow.fadeIn.pizza
         .content
           - if pizza.top
             .top.wow.pulse data-wow-iteration="infinite"
@@ -34,12 +34,35 @@
           .description
             = pizza.description
           .price.wow.lightSpeedIn data-wow-offset="100"
-            span.badge
-              |Большой круг: &nbsp
-              = pizza.price
-              |&nbsp; тенге
-            br
-            span.badge
-              |Малый круг: &nbsp
-              = pizza.small_price
-              |&nbsp; тенге
+            - if pizza.is_has_discount
+              span.badge.deleted
+                |Большой круг: &nbsp
+                = pizza.price
+                |&nbsp; тенге
+              br
+              span.badge.deleted
+                |Малый круг: &nbsp
+                = pizza.small_price
+                |&nbsp; тенге
+              span.badge.success
+                |Большой круг: &nbsp
+                = pizza.price_with_discount
+                |&nbsp; тенге
+              br
+              span.badge.success
+                |Малый круг: &nbsp
+                = pizza.small_price_with_discount
+                |&nbsp; тенге
+            - else
+              span.badge
+                |Большой круг: &nbsp
+                = pizza.price
+                |&nbsp; тенге
+              br
+              span.badge
+                |Малый круг: &nbsp
+                = pizza.small_price
+                |&nbsp; тенге
+          - if pizza.is_has_discount
+            .discount.wow.bounce data-wow-iteration="infinite" data-wow-duration="3s"
+              i.fa.fa-thumbs-o-up.fa-2x

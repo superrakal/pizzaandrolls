@@ -34,6 +34,18 @@
           .description
             = roll.description
           .price.wow.lightSpeedIn data-wow-offset="100"
-            span.badge
-              = roll.price
-              |&nbsp; тенге
+            - if roll.is_has_discount
+              span.badge.deleted
+                = roll.price
+                |&nbsp; тенге
+              br
+              span.badge.success
+                = roll.price_with_discount
+                |&nbsp; тенге
+            - else
+              span.badge
+                = roll.price
+                |&nbsp; тенге
+          - if roll.is_has_discount
+            .discount.wow.bounce data-wow-iteration="infinite" data-wow-duration="3s"
+              i.fa.fa-thumbs-o-up.fa-2x

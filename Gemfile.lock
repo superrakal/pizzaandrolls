@@ -20,6 +20,9 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    active_attr (0.8.5)
+      activemodel (>= 3.0.2, < 5.0)
+      activesupport (>= 3.0.2, < 5.0)
     activejob (4.2.3)
       activesupport (= 4.2.3)
       globalid (>= 0.3.0)
@@ -156,6 +159,7 @@ GEM
       activesupport (>= 4.1.0)
     haml (4.0.6)
       tilt
+    hashie (3.4.2)
     highline (1.7.3)
     hike (1.2.3)
     hitimes (1.2.2)
@@ -164,6 +168,9 @@ GEM
       hpricot
     http-cookie (1.0.2)
       domain_name (~> 0.5)
+    httparty (0.13.5)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
     jbuilder (2.3.1)
       activesupport (>= 3.0.0, < 5)
@@ -185,6 +192,12 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mainsms_api (0.0.7)
+      active_attr (~> 0.7)
+      activesupport (>= 3, < 5)
+      hashie (>= 2)
+      httparty (~> 0.10)
+      signed_parameters
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.8.0)
@@ -201,6 +214,7 @@ GEM
       optionable (~> 0.2.0)
     multi_json (1.11.2)
     multi_test (0.1.2)
+    multi_xml (0.5.5)
     nested_form (0.3.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -326,6 +340,8 @@ GEM
       json (~> 1.0)
       redis (~> 3.2, >= 3.2.1)
       redis-namespace (~> 1.5, >= 1.5.2)
+    signed_parameters (0.0.4)
+      activesupport (>= 2.2.1)
     simplecov (0.10.0)
       docile (~> 1.1.0)
       json (~> 1.8)
@@ -410,6 +426,7 @@ DEPENDENCIES
   html2slim
   jbuilder (~> 2.0)
   jquery-rails
+  mainsms_api
   mongoid (~> 4.0.0)
   mongoid-paperclip
   net-ssh (~> 2.7.0)
@@ -434,3 +451,6 @@ DEPENDENCIES
   unicorn
   unicorn_service
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.10.5

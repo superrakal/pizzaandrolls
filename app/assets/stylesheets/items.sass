@@ -11,6 +11,8 @@ img.img-logo
   .items-wrapper > div
     height: 400px
     padding: 5px
+    &.pizza
+      height: 500px
     .content
       -webkit-box-shadow: 0px 10px 53px -9px rgba(128,74,32,1)
       -moz-box-shadow: 0px 10px 53px -9px rgba(128,74,32,1)
@@ -26,7 +28,7 @@ img.img-logo
         background-color: #E28133
         position: absolute
         top: -20px
-        right: 0
+        left: 0
         border-radius: 50%
         color: white
         border: 1px solid black
@@ -62,7 +64,27 @@ img.img-logo
         .badge
           font-size: 16px
           background-color: #E28133
+          &.deleted
+            text-decoration: line-through
+            background-color: grey
+          &.success
+            background-color: forestgreen
 
+      .discount
+        padding-top: 10px
+        width: 60px !important
+        height: 60px !important
+        text-align: center
+        background-color: forestgreen
+        position: absolute
+        top: -20px
+        right: 0
+        border-radius: 50%
+        color: white
+        border: 1px solid black
+        font-weight: bold
+        i
+          display: block
 
   section
     height: 400px

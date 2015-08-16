@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  post 'callback/new_callback'
+
   get 'drinks/index'
 
   get 'salads/index'

@@ -60311,3 +60311,1861 @@ Processing by WelcomeController#index as HTML
   MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1395ms
   Rendered welcome/index.html.slim within layouts/application (15.6ms)
 Completed 200 OK in 244ms (Views: 243.4ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 18:31:09 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2816ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3409ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3166ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1812ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2842ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3068ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2043ms
+  Rendered welcome/index.html.slim within layouts/application (15.1ms)
+Completed 200 OK in 238ms (Views: 237.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 18:47:40 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3176ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3533ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3033ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2086ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2160ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2375ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1833ms
+  Rendered welcome/index.html.slim within layouts/application (15.4ms)
+Completed 200 OK in 298ms (Views: 297.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 18:48:15 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3026ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3970ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2701ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1934ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1864ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2136ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2177ms
+  Rendered welcome/index.html.slim within layouts/application (15.5ms)
+Completed 200 OK in 304ms (Views: 303.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 18:57:44 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6609ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3810ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3667ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2437ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3316ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1907ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2167ms
+  Rendered welcome/index.html.slim within layouts/application (59.3ms)
+Completed 200 OK in 614ms (Views: 595.1ms)
+
+
+Started GET "/callback/new_callback" for 127.0.0.1 at 2015-08-16 18:57:54 +0300
+Processing by CallbackController#new_callback as HTML
+Completed 500 Internal Server Error in 396ms
+
+ActionView::MissingTemplate - Missing template callback/new_callback, application/new_callback with {:locale=>[:ru], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :slim, :jbuilder, :haml]}. Searched in:
+  * "/home/egor/RubymineProjects/pizzaandrolls/app/views"
+  * "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.1/app/views"
+  * "/home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views"
+  * "/home/egor/.rvm/gems/ruby-2.1.6/gems/kaminari-0.16.3/app/views"
+:
+  actionview (4.2.3) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.3) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  remotipart (1.2.1) lib/remotipart/render_overrides.rb:14:in `render_with_remotipart'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/02331a08f2db0ce5/variables" for 127.0.0.1 at 2015-08-16 18:57:54 +0300
+
+
+Started POST "/__better_errors/02331a08f2db0ce5/variables" for 127.0.0.1 at 2015-08-16 18:58:10 +0300
+
+
+Started GET "/callback/new_callback" for 127.0.0.1 at 2015-08-16 18:58:11 +0300
+Processing by CallbackController#new_callback as HTML
+Completed 200 OK in 588ms
+
+
+Started GET "/callback/new_callback" for 127.0.0.1 at 2015-08-16 18:58:24 +0300
+Processing by CallbackController#new_callback as HTML
+Completed 200 OK in 298ms
+
+
+Started GET "/callback/new_callback" for 127.0.0.1 at 2015-08-16 18:59:33 +0300
+Processing by CallbackController#new_callback as HTML
+Completed 200 OK in 413ms
+
+
+Started GET "/callback/new_callback" for 127.0.0.1 at 2015-08-16 18:59:58 +0300
+Processing by CallbackController#new_callback as HTML
+Completed 200 OK in 347ms
+
+
+Started GET "/callback/new_callback" for 127.0.0.1 at 2015-08-16 19:00:08 +0300
+Processing by CallbackController#new_callback as HTML
+Completed 200 OK in 648ms
+
+
+Started GET "/callback/new_callback" for 127.0.0.1 at 2015-08-16 19:06:29 +0300
+
+ActionController::RoutingError (No route matches [GET] "/callback/new_callback"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (9.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (19.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:06:32 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6313ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4456ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3307ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1905ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1757ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1490ms
+  Rendered welcome/index.html.slim within layouts/application (71.3ms)
+Completed 200 OK in 457ms (Views: 432.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:06:56 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3123ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3822ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3383ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2358ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2813ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2253ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1976ms
+  Rendered welcome/index.html.slim within layouts/application (17.6ms)
+Completed 200 OK in 256ms (Views: 255.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:07:25 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3183ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3958ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3355ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2139ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2468ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1845ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1917ms
+  Rendered welcome/index.html.slim within layouts/application (16.2ms)
+Completed 200 OK in 287ms (Views: 286.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:07:31 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6304ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 1.0064ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.5763ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3867ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.4499ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.4482ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.4480ms
+  Rendered welcome/index.html.slim within layouts/application (41.2ms)
+Completed 200 OK in 299ms (Views: 297.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:07:42 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.8106ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3557ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1812ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2928ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2389ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2325ms
+  Rendered welcome/index.html.slim within layouts/application (18.8ms)
+Completed 200 OK in 306ms (Views: 305.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:07:53 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3252ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4303ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2992ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1643ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2367ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2153ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1998ms
+  Rendered welcome/index.html.slim within layouts/application (15.9ms)
+Completed 200 OK in 288ms (Views: 287.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:07:57 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4985ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2871ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1976ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1869ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1426ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1581ms
+  Rendered welcome/index.html.slim within layouts/application (15.5ms)
+Completed 200 OK in 298ms (Views: 297.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:09:25 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2973ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3755ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3016ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1898ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2341ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2353ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2213ms
+  Rendered welcome/index.html.slim within layouts/application (43.3ms)
+Completed 200 OK in 323ms (Views: 321.8ms)
+
+
+Started POST "/callback/new_callback?name=21321312&number=+7%20(213)%20213-2131" for 127.0.0.1 at 2015-08-16 19:09:30 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"21321312", "number"=>" 7 (213) 213-2131"}
+Completed 200 OK in 639ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:10:29 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3376ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4325ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3414ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1652ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3030ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2179ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2677ms
+  Rendered welcome/index.html.slim within layouts/application (19.9ms)
+Completed 200 OK in 272ms (Views: 264.2ms)
+
+
+Started POST "/callback/new_callback?name=%D0%95%D0%B3%D0%BE%D1%80&number=+7%20(705)%20508-3705" for 127.0.0.1 at 2015-08-16 19:10:39 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"Егор", "number"=>" 7 (705) 508-3705"}
+Completed 200 OK in 306ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:11:14 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6614ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4089ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3510ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1981ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2131ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2418ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1619ms
+  Rendered welcome/index.html.slim within layouts/application (63.5ms)
+Completed 200 OK in 407ms (Views: 385.6ms)
+
+
+Started POST "/callback/new_callback?name=%D0%95%D0%B3%D0%BE%D1%80&number=+7%20(705)%20508-3705" for 127.0.0.1 at 2015-08-16 19:11:26 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"Егор", "number"=>" 7 (705) 508-3705"}
+Completed 200 OK in 608ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:12:22 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3326ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3738ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3517ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2077ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2599ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2275ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1931ms
+  Rendered welcome/index.html.slim within layouts/application (17.7ms)
+Completed 200 OK in 277ms (Views: 276.1ms)
+
+
+Started POST "/callback/new_callback?name=%D0%95%D0%B3%D0%BE%D1%80&number=+7%20(705)%20508-3705" for 127.0.0.1 at 2015-08-16 19:12:31 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"Егор", "number"=>" 7 (705) 508-3705"}
+Completed 200 OK in 773ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:13:42 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2677ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3715ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3200ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1981ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2391ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2091ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1657ms
+  Rendered welcome/index.html.slim within layouts/application (44.7ms)
+Completed 200 OK in 288ms (Views: 287.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:14:10 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3071ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3507ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3233ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1872ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2096ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2003ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2086ms
+  Rendered welcome/index.html.slim within layouts/application (16.9ms)
+Completed 200 OK in 280ms (Views: 279.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:14:19 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3660ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4225ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3595ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1307ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2720ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1881ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2167ms
+  Rendered welcome/index.html.slim within layouts/application (19.9ms)
+Completed 200 OK in 300ms (Views: 299.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:14:58 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.5846ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3364ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1640ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2463ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2015ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1624ms
+  Rendered welcome/index.html.slim within layouts/application (41.5ms)
+Completed 200 OK in 269ms (Views: 267.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:15:04 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4530ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3676ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2310ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2005ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1576ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2279ms
+  Rendered welcome/index.html.slim within layouts/application (43.9ms)
+Completed 200 OK in 280ms (Views: 278.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:15:18 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4003ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.5567ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2718ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1597ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1802ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1764ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1779ms
+  Rendered welcome/index.html.slim within layouts/application (43.9ms)
+Completed 200 OK in 284ms (Views: 282.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:16:18 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6018ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3819ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3450ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1938ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2577ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2201ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2189ms
+  Rendered welcome/index.html.slim within layouts/application (59.3ms)
+Completed 200 OK in 440ms (Views: 420.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:18:56 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3057ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4208ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3309ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1605ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2785ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1926ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1311ms
+  Rendered welcome/index.html.slim within layouts/application (55.6ms)
+Completed 200 OK in 293ms (Views: 283.9ms)
+
+
+Started POST "/callback/new_callback?name=2132121312&number=+7%20(132)%20132-1123" for 127.0.0.1 at 2015-08-16 19:19:03 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"2132121312", "number"=>" 7 (132) 132-1123"}
+Completed 200 OK in 372ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:19:04 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3645ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4783ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3147ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2012ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2689ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2122ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1681ms
+  Rendered welcome/index.html.slim within layouts/application (16.6ms)
+Completed 200 OK in 244ms (Views: 243.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:20:12 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2625ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3686ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3121ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1776ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1693ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1476ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1307ms
+  Rendered welcome/index.html.slim within layouts/application (40.5ms)
+Completed 200 OK in 275ms (Views: 274.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:20:34 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2472ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3204ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2480ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1471ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2303ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1709ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2627ms
+  Rendered welcome/index.html.slim within layouts/application (50.9ms)
+Completed 200 OK in 272ms (Views: 271.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:20:58 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.6218ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3390ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2036ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2570ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2213ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2308ms
+  Rendered welcome/index.html.slim within layouts/application (21.1ms)
+Completed 200 OK in 280ms (Views: 279.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:22:55 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3130ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3948ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3047ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2027ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2401ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2213ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2019ms
+  Rendered welcome/index.html.slim within layouts/application (15.3ms)
+Completed 200 OK in 270ms (Views: 269.8ms)
+
+
+Started POST "/callback/new_callback?name=ewdewddwed&number=+7%20(123)%20213-2132" for 127.0.0.1 at 2015-08-16 19:23:02 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"ewdewddwed", "number"=>" 7 (123) 213-2132"}
+Completed 200 OK in 353ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:23:23 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3154ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4096ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2921ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1869ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1976ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1943ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1464ms
+  Rendered welcome/index.html.slim within layouts/application (36.2ms)
+Completed 200 OK in 299ms (Views: 298.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:23:30 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2975ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3772ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2928ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1757ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2370ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1929ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1941ms
+  Rendered welcome/index.html.slim within layouts/application (15.5ms)
+Completed 200 OK in 229ms (Views: 228.8ms)
+
+
+Started POST "/callback/new_callback?name=21321321&number=+7%20(213)%20213-2132" for 127.0.0.1 at 2015-08-16 19:23:35 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"21321321", "number"=>" 7 (213) 213-2132"}
+Completed 200 OK in 345ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-16 19:36:12 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3092ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3676ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3047ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1931ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2215ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1965ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1533ms
+  Rendered welcome/index.html.slim within layouts/application (19.4ms)
+Completed 200 OK in 257ms (Views: 248.9ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:36:15 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3345ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3710ms
+  Rendered sushi/index.html.slim within layouts/application (22.5ms)
+Completed 200 OK in 263ms (Views: 262.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-08-16 19:36:25 +0300
+Processing by RailsAdmin::MainController#dashboard as HTML
+Creating scope :page. Overwriting existing method Discount.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.3586ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{}} runtime: 0.1957ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Soup"]}}} runtime: 0.2229ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Drink"]}}} runtime: 0.2048ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{}} runtime: 0.2031ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.2058ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Roll"]}}} runtime: 0.1688ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Salad"]}}} runtime: 0.1786ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Sushi"]}}} runtime: 0.1545ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{}} runtime: 0.1435ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (18.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (1.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (4.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (2.2ms)
+Completed 200 OK in 425ms (Views: 311.6ms)
+
+
+Started GET "/admin/discount?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 19:36:30 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"discount"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2131ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.1762ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.1962ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (29.0ms)
+Completed 200 OK in 42ms (Views: 33.9ms)
+
+
+Started GET "/admin/discount/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 19:36:31 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"discount"}
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (1.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (4.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (3.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (1.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc0fd3054d1f2e000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2763ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{}} runtime: 0.2079ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4237ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>{"$in"=>[nil]}, "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1984ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (8.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (2.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (34.2ms)
+Completed 200 OK in 49ms (Views: 44.6ms)
+
+
+Started POST "/admin/discount/new" for 127.0.0.1 at 2015-08-16 19:37:10 +0300
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B6njnUtKAZ8QN2pt5+kR+kcI74GvOYHmbUug+L9jfghpZIz8kR5HJRSNjKW7PDt6DMgQTJXnqxYCtS2JB9Smbg==", "discount"=>{"name"=>"ewdwdwedwed", "from"=>"August 16, 2015", "to"=>"August 21, 2015", "percent"=>"20", "item_ids"=>["", "", "55cee76ed3054d4a1c000002"]}, "return_to"=>"http://localhost:3000/admin/discount", "_save"=>"", "model_name"=>"discount"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4137ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>nil} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2491ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>nil} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2441ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee76ed3054d4a1c000002')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1800ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee76ed3054d4a1c000002')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2639ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee76ed3054d4a1c000002')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1659ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_id"=>{"$nin"=>[BSON::ObjectId('55cee76ed3054d4a1c000002')]}} update={"$set"=>{"discount_id"=>nil}} flags=[:multi]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2933ms
+  MOPED: 127.0.0.1:27017 INSERT       database=burgerclub_development collection=shares documents=[{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>"Discount", "name"=>"ewdwdwedwed", "from"=>2015-08-16 00:00:00 UTC, "to"=>2015-08-21 00:00:00 UTC, "percent"=>20}] flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.3805ms
+Redirected to http://localhost:3000/admin/discount
+Completed 302 Found in 15ms
+
+
+Started GET "/admin/discount" for 127.0.0.1 at 2015-08-16 19:37:10 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"discount"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3829ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2608ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.2799ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2091ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (14.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 193ms (Views: 189.1ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:37:14 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3905ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4637ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5310ms
+  Rendered sushi/index.html.slim within layouts/application (13.8ms)
+Completed 200 OK in 315ms (Views: 314.0ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:37:35 +0300
+Processing by SushiController#index as HTML
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3142ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3340ms
+Creating scope :page. Overwriting existing method Discount.page.
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4082ms
+  Rendered sushi/index.html.slim within layouts/application (13.0ms)
+Completed 200 OK in 248ms (Views: 242.0ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:37:41 +0300
+Processing by SushiController#index as HTML
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4153ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3898ms
+Creating scope :page. Overwriting existing method Discount.page.
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4051ms
+  Rendered sushi/index.html.slim within layouts/application (15.5ms)
+Completed 200 OK in 251ms (Views: 238.0ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:38:15 +0300
+Processing by SushiController#index as HTML
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2859ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2959ms
+Creating scope :page. Overwriting existing method Discount.page.
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4067ms
+  Rendered sushi/index.html.slim within layouts/application (17.5ms)
+Completed 200 OK in 313ms (Views: 307.5ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:39:10 +0300
+Processing by SushiController#index as HTML
+  Rendered sushi/index.html.slim within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError - syntax error, unexpected ':', expecting keyword_end
+...s1 = sushi.is_has_discount?'a':'b'; if Array === _slim_codea...
+...                               ^:
+  app/views/sushi/index.html.slim:37:in `'
+  actionview (4.2.3) lib/action_view/template.rb:296:in `compile'
+  actionview (4.2.3) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.2.3) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.2.3) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  remotipart (1.2.1) lib/remotipart/render_overrides.rb:14:in `render_with_remotipart'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/7511a4fb9025b044/variables" for 127.0.0.1 at 2015-08-16 19:39:10 +0300
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:39:35 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3386ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3226ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3178ms
+  Rendered sushi/index.html.slim within layouts/application (13.3ms)
+Completed 200 OK in 244ms (Views: 243.3ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:41:07 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3009ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3064ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3357ms
+  Rendered sushi/index.html.slim within layouts/application (23.6ms)
+Completed 200 OK in 260ms (Views: 259.5ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:41:47 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2670ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2830ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4082ms
+  Rendered sushi/index.html.slim within layouts/application (13.1ms)
+Completed 200 OK in 261ms (Views: 260.6ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:42:33 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3195ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3378ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3028ms
+  Rendered sushi/index.html.slim within layouts/application (13.5ms)
+Completed 200 OK in 307ms (Views: 306.6ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:42:55 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3366ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3426ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3488ms
+  Rendered sushi/index.html.slim within layouts/application (8.7ms)
+Completed 200 OK in 318ms (Views: 317.6ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:43:35 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2735ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2835ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3796ms
+  Rendered sushi/index.html.slim within layouts/application (22.5ms)
+Completed 200 OK in 264ms (Views: 263.9ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:49:16 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2868ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3352ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3047ms
+  Rendered sushi/index.html.slim within layouts/application (23.1ms)
+Completed 200 OK in 329ms (Views: 328.6ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:49:47 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2623ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2797ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3278ms
+  Rendered sushi/index.html.slim within layouts/application (8.2ms)
+Completed 200 OK in 348ms (Views: 347.2ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:49:59 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4172ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4280ms
+  Rendered sushi/index.html.slim within layouts/application (8.3ms)
+Completed 200 OK in 303ms (Views: 302.4ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:50:07 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2911ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3355ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4375ms
+  Rendered sushi/index.html.slim within layouts/application (9.9ms)
+Completed 200 OK in 310ms (Views: 310.0ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:50:12 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3045ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2971ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4218ms
+  Rendered sushi/index.html.slim within layouts/application (15.5ms)
+Completed 200 OK in 302ms (Views: 301.8ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:50:30 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7584ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3433ms
+  Rendered sushi/index.html.slim within layouts/application (8.9ms)
+Completed 200 OK in 306ms (Views: 305.3ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:51:18 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2573ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2699ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3085ms
+  Rendered sushi/index.html.slim within layouts/application (15.5ms)
+Completed 200 OK in 249ms (Views: 248.6ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:51:37 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2809ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3057ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2880ms
+  Rendered sushi/index.html.slim within layouts/application (13.7ms)
+Completed 200 OK in 258ms (Views: 257.3ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:51:44 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3297ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4218ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3991ms
+  Rendered sushi/index.html.slim within layouts/application (24.5ms)
+Completed 200 OK in 248ms (Views: 247.2ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:52:32 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2656ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3295ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2546ms
+  Rendered sushi/index.html.slim within layouts/application (7.3ms)
+Completed 200 OK in 305ms (Views: 304.3ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:53:09 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2756ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2964ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3049ms
+  Rendered sushi/index.html.slim within layouts/application (13.8ms)
+Completed 200 OK in 255ms (Views: 254.9ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:53:40 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3123ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3169ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3312ms
+  Rendered sushi/index.html.slim within layouts/application (15.8ms)
+Completed 200 OK in 262ms (Views: 262.1ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 19:54:12 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2708ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3452ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3281ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2077ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2515ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2425ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1590ms
+  Rendered welcome/index.html.slim within layouts/application (18.9ms)
+Completed 200 OK in 260ms (Views: 255.5ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:54:14 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3064ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3552ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3459ms
+  Rendered sushi/index.html.slim within layouts/application (8.6ms)
+Completed 200 OK in 283ms (Views: 282.9ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:54:49 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2763ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3741ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2520ms
+  Rendered sushi/index.html.slim within layouts/application (7.7ms)
+Completed 200 OK in 373ms (Views: 372.7ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:55:30 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2890ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2985ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2983ms
+  Rendered sushi/index.html.slim within layouts/application (14.5ms)
+Completed 200 OK in 244ms (Views: 243.9ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:55:39 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4721ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2673ms
+  Rendered sushi/index.html.slim within layouts/application (14.4ms)
+Completed 200 OK in 243ms (Views: 242.2ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:56:04 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2763ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3119ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3633ms
+  Rendered sushi/index.html.slim within layouts/application (8.3ms)
+Completed 200 OK in 302ms (Views: 301.4ms)
+
+
+Started GET "/sushi/index" for 127.0.0.1 at 2015-08-16 19:56:13 +0300
+Processing by SushiController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2882ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Sushi"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3216ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3674ms
+  Rendered sushi/index.html.slim within layouts/application (15.5ms)
+Completed 200 OK in 260ms (Views: 259.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 19:56:40 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4859ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3450ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2065ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2828ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1845ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1643ms
+  Rendered welcome/index.html.slim within layouts/application (23.3ms)
+Completed 200 OK in 252ms (Views: 250.9ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 19:57:50 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3784ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4222ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3424ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1638ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1750ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1757ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1378ms
+  Rendered welcome/index.html.slim within layouts/application (16.9ms)
+Completed 200 OK in 237ms (Views: 236.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-08-16 19:57:58 +0300
+Processing by RailsAdmin::MainController#dashboard as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3119ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.2334ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{}} runtime: 0.1833ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Soup"]}}} runtime: 0.2093ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Drink"]}}} runtime: 0.2089ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{}} runtime: 0.1600ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.2000ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Roll"]}}} runtime: 0.2019ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Salad"]}}} runtime: 0.2294ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Sushi"]}}} runtime: 0.1600ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{}} runtime: 0.1531ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (13.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (0.8ms)
+Completed 200 OK in 190ms (Views: 183.2ms)
+
+
+Started GET "/admin/discount?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 19:58:01 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"discount"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3662ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3061ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2677ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.2489ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2480ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (15.2ms)
+Completed 200 OK in 26ms (Views: 20.2ms)
+
+
+Started GET "/admin/discount/55d0bc36d3054d1f2e000001/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 19:58:03 +0300
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"discount", "id"=>"55d0bc36d3054d1f2e000001"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3896ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (4.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (3.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2878ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3679ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>{"$in"=>[nil, BSON::ObjectId('55d0bc36d3054d1f2e000001')]}, "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2098ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (4.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (22.6ms)
+Completed 200 OK in 37ms (Views: 32.0ms)
+
+
+Started PUT "/admin/discount/55d0bc36d3054d1f2e000001/edit" for 127.0.0.1 at 2015-08-16 19:58:08 +0300
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mRaJEdqp9T1Mz1ad94ij+503ipKLa4fp43kP0rVN99H32+ZwAP2zh0h1sFWrXYl71vd1X7G1rRmMh4KjDfovtw==", "discount"=>{"name"=>"ewdwdwedwed", "from"=>"i 16, 2015", "to"=>"i 21, 2015", "percent"=>"20", "item_ids"=>["", "", "55cee76ed3054d4a1c000002", "55cf4b9ad3054d1c10000003", "55cf4ae2d3054d1c10000002", "55cf482fd3054d1c10000001", "55cf4624d3054d1c10000000", "55cf4462d3054d0b7f000000", "55cee6fbd3054d4a1c000001", "55cee6ded3054d4a1c000000", "55cee186d3054d4815000000"]}, "return_to"=>"http://localhost:3000/admin/discount", "_save"=>"", "model_name"=>"discount", "id"=>"55d0bc36d3054d1f2e000001"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3371ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2954ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>nil} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3479ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>nil} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2096ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee76ed3054d4a1c000002')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2899ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4b9ad3054d1c10000003')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1702ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4ae2d3054d1c10000002')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1690ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf482fd3054d1c10000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1624ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4624d3054d1c10000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1621ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4462d3054d0b7f000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1936ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee6fbd3054d4a1c000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1566ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee6ded3054d4a1c000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1819ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee186d3054d4815000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1674ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>{"$in"=>[BSON::ObjectId('55cee76ed3054d4a1c000002'), BSON::ObjectId('55cf4b9ad3054d1c10000003'), BSON::ObjectId('55cf4ae2d3054d1c10000002'), BSON::ObjectId('55cf482fd3054d1c10000001'), BSON::ObjectId('55cf4624d3054d1c10000000'), BSON::ObjectId('55cf4462d3054d0b7f000000'), BSON::ObjectId('55cee6fbd3054d4a1c000001'), BSON::ObjectId('55cee6ded3054d4a1c000000'), BSON::ObjectId('55cee186d3054d4815000000')]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4199ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_id"=>{"$nin"=>[BSON::ObjectId('55cee186d3054d4815000000'), BSON::ObjectId('55cee6ded3054d4a1c000000'), BSON::ObjectId('55cee6fbd3054d4a1c000001'), BSON::ObjectId('55cee76ed3054d4a1c000002'), BSON::ObjectId('55cf4462d3054d0b7f000000'), BSON::ObjectId('55cf4624d3054d1c10000000'), BSON::ObjectId('55cf482fd3054d1c10000001'), BSON::ObjectId('55cf4ae2d3054d1c10000002'), BSON::ObjectId('55cf4b9ad3054d1c10000003')]}} update={"$set"=>{"discount_id"=>nil}} flags=[:multi]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2866ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee186d3054d4815000000')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2122ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee6ded3054d4a1c000000')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2182ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee6fbd3054d4a1c000001')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.1876ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4462d3054d0b7f000000')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.1802ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4624d3054d1c10000000')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2513ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf482fd3054d1c10000001')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2780ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4ae2d3054d1c10000002')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2570ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4b9ad3054d1c10000003')} update={"$set"=>{"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2127ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=shares selector={"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} update={"$set"=>{"to"=>2015-08-16 00:00:00 UTC}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2198ms
+Redirected to http://localhost:3000/admin/discount
+Completed 302 Found in 25ms
+
+
+Started GET "/admin/discount" for 127.0.0.1 at 2015-08-16 19:58:08 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"discount"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3767ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3846ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.2692ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2782ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (18.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 197ms (Views: 194.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 19:58:10 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4845ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3841ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2103ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2174ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2713ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3009ms
+  Rendered welcome/index.html.slim within layouts/application (16.0ms)
+Completed 200 OK in 271ms (Views: 270.0ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-16 19:58:13 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3772ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2906ms
+  Rendered soup/index.html.slim within layouts/application (11.9ms)
+Completed 200 OK in 263ms (Views: 262.6ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-16 19:58:19 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3121ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3138ms
+  Rendered soup/index.html.slim within layouts/application (3.9ms)
+Completed 200 OK in 240ms (Views: 239.5ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-16 19:58:36 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4125ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3896ms
+  Rendered soup/index.html.slim within layouts/application (11.2ms)
+Completed 200 OK in 246ms (Views: 245.2ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-16 19:58:43 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2995ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2403ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3390ms
+  Rendered soup/index.html.slim within layouts/application (11.1ms)
+Completed 200 OK in 285ms (Views: 285.1ms)
+
+
+Started GET "/soup/index" for 127.0.0.1 at 2015-08-16 19:59:00 +0300
+Processing by SoupController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3681ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Soup"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2570ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3250ms
+  Rendered soup/index.html.slim within layouts/application (5.0ms)
+Completed 200 OK in 251ms (Views: 250.1ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 19:59:01 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4408ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3719ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2379ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2666ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1957ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1850ms
+  Rendered welcome/index.html.slim within layouts/application (16.2ms)
+Completed 200 OK in 273ms (Views: 272.8ms)
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-16 19:59:04 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4294ms
+  Rendered salads/index.html.slim within layouts/application (28.1ms)
+Completed 500 Internal Server Error in 30ms
+
+NameError - undefined local variable or method `soup' for #<#<Class:0x000000059798c0>:0x0000000596fe38>:
+  app/views/salads/index.html.slim:37:in `block in _app_views_salads_index_html_slim__3843944942682909144_46874340'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:658:in `yield_document'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:123:in `block in each'
+  moped (2.0.6) lib/moped/cursor.rb:28:in `block in each'
+  moped (2.0.6) lib/moped/cursor.rb:28:in `each'
+  moped (2.0.6) lib/moped/query.rb:78:in `each'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:122:in `each'
+  mongoid (4.0.2) lib/mongoid/contextual.rb:20:in `each'
+  app/views/salads/index.html.slim:23:in `_app_views_salads_index_html_slim__3843944942682909144_46874340'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  remotipart (1.2.1) lib/remotipart/render_overrides.rb:14:in `render_with_remotipart'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/a424d0e4a3a83e8d/variables" for 127.0.0.1 at 2015-08-16 19:59:04 +0300
+
+
+Started GET "/salads/index" for 127.0.0.1 at 2015-08-16 19:59:16 +0300
+Processing by SaladsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Salad"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3603ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2685ms
+  Rendered salads/index.html.slim within layouts/application (10.6ms)
+Completed 200 OK in 234ms (Views: 233.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 19:59:25 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.5445ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2875ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2241ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1979ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2232ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2973ms
+  Rendered welcome/index.html.slim within layouts/application (15.9ms)
+Completed 200 OK in 270ms (Views: 269.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 19:59:51 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.6380ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2897ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1380ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1845ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1285ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1726ms
+  Rendered welcome/index.html.slim within layouts/application (15.8ms)
+Completed 200 OK in 270ms (Views: 269.1ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-16 19:59:52 +0300
+Processing by RollsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4039ms
+  Rendered rolls/index.html.slim within layouts/application (24.9ms)
+Completed 500 Internal Server Error in 27ms
+
+NameError - undefined local variable or method `salad' for #<#<Class:0x00000008f21950>:0x00000008f1fdd0>:
+  app/views/rolls/index.html.slim:37:in `block in _app_views_rolls_index_html_slim__2187995512667449019_75035480'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:658:in `yield_document'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:123:in `block in each'
+  moped (2.0.6) lib/moped/cursor.rb:28:in `block in each'
+  moped (2.0.6) lib/moped/cursor.rb:28:in `each'
+  moped (2.0.6) lib/moped/query.rb:78:in `each'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:122:in `each'
+  mongoid (4.0.2) lib/mongoid/contextual.rb:20:in `each'
+  app/views/rolls/index.html.slim:23:in `_app_views_rolls_index_html_slim__2187995512667449019_75035480'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  remotipart (1.2.1) lib/remotipart/render_overrides.rb:14:in `render_with_remotipart'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/11a53be6838ab1a3/variables" for 127.0.0.1 at 2015-08-16 19:59:52 +0300
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-16 20:00:01 +0300
+Processing by RollsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4346ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3712ms
+  Rendered rolls/index.html.slim within layouts/application (15.9ms)
+Completed 200 OK in 233ms (Views: 232.7ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-16 20:01:52 +0300
+Processing by RollsController#index as HTML
+Creating scope :page. Overwriting existing method Roll.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2434ms
+Creating scope :page. Overwriting existing method Discount.page.
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3595ms
+  Rendered rolls/index.html.slim within layouts/application (10.1ms)
+Completed 200 OK in 259ms (Views: 253.0ms)
+
+
+Started GET "/admin/discount/55d0bc36d3054d1f2e000001/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-08-16 20:02:03 +0300
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"discount", "id"=>"55d0bc36d3054d1f2e000001"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2856ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2491ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (3.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_datetime.html.haml (3.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4511ms
+Creating scope :page. Overwriting existing method Sushi.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Drink.page.
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3772ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>{"$in"=>[BSON::ObjectId('55d0bc36d3054d1f2e000001')]}, "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2167ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (7.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (24.3ms)
+Completed 200 OK in 36ms (Views: 31.0ms)
+
+
+Started PUT "/admin/discount/55d0bc36d3054d1f2e000001/edit" for 127.0.0.1 at 2015-08-16 20:02:10 +0300
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U0llQ7ojnlS512ONHaY/NGiNF5e3fsPvyNhr/erd5sw9hAoiYHfY7r1thUVBcxW0I03oWo2g6R+nJuaMUmo+qg==", "discount"=>{"name"=>"ewdwdwedwed", "from"=>"i 16, 2015", "to"=>"August 21, 2015", "percent"=>"20", "item_ids"=>["", "", "55cee186d3054d4815000000", "55cee6ded3054d4a1c000000", "55cee6fbd3054d4a1c000001", "55cee76ed3054d4a1c000002", "55cf4462d3054d0b7f000000", "55cf4624d3054d1c10000000", "55cf482fd3054d1c10000001", "55cf4ae2d3054d1c10000002", "55cf4b9ad3054d1c10000003"]}, "return_to"=>"http://localhost:3000/admin/discount", "_save"=>"", "model_name"=>"discount", "id"=>"55d0bc36d3054d1f2e000001"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3715ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>nil} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2551ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>nil} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2949ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee186d3054d4815000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3705ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee6ded3054d4a1c000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2203ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee6fbd3054d4a1c000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1776ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cee76ed3054d4a1c000002')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2189ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4462d3054d0b7f000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2341ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4624d3054d1c10000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2313ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf482fd3054d1c10000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2644ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4ae2d3054d1c10000002')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2110ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>BSON::ObjectId('55cf4b9ad3054d1c10000003')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1910ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_id"=>{"$in"=>[BSON::ObjectId('55cee186d3054d4815000000'), BSON::ObjectId('55cee6ded3054d4a1c000000'), BSON::ObjectId('55cee6fbd3054d4a1c000001'), BSON::ObjectId('55cee76ed3054d4a1c000002'), BSON::ObjectId('55cf4462d3054d0b7f000000'), BSON::ObjectId('55cf4624d3054d1c10000000'), BSON::ObjectId('55cf482fd3054d1c10000001'), BSON::ObjectId('55cf4ae2d3054d1c10000002'), BSON::ObjectId('55cf4b9ad3054d1c10000003')]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4539ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_id"=>{"$nin"=>[BSON::ObjectId('55cee186d3054d4815000000'), BSON::ObjectId('55cee6ded3054d4a1c000000'), BSON::ObjectId('55cee6fbd3054d4a1c000001'), BSON::ObjectId('55cee76ed3054d4a1c000002'), BSON::ObjectId('55cf4462d3054d0b7f000000'), BSON::ObjectId('55cf4624d3054d1c10000000'), BSON::ObjectId('55cf482fd3054d1c10000001'), BSON::ObjectId('55cf4ae2d3054d1c10000002'), BSON::ObjectId('55cf4b9ad3054d1c10000003')]}} update={"$set"=>{"discount_id"=>nil}} flags=[:multi]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.3624ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=burgerclub_development collection=shares selector={"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} update={"$set"=>{"to"=>2015-08-21 00:00:00 UTC}} flags=[]
+                         COMMAND      database=burgerclub_development command={:getlasterror=>1, :w=>1} runtime: 0.2604ms
+Redirected to http://localhost:3000/admin/discount
+Completed 302 Found in 17ms
+
+
+Started GET "/admin/discount" for 127.0.0.1 at 2015-08-16 20:02:10 +0300
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"discount"}
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4077ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"discount_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4199ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.2904ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2170ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (17.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (8.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 201ms (Views: 197.8ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-16 20:02:16 +0300
+Processing by RollsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2646ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2172ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2284ms
+  Rendered rolls/index.html.slim within layouts/application (4.7ms)
+Completed 200 OK in 243ms (Views: 242.6ms)
+
+
+Started GET "/rolls/index" for 127.0.0.1 at 2015-08-16 20:02:29 +0300
+Processing by RollsController#index as HTML
+Creating scope :page. Overwriting existing method Roll.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3042ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Roll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2589ms
+Creating scope :page. Overwriting existing method Discount.page.
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3769ms
+  Rendered rolls/index.html.slim within layouts/application (9.5ms)
+Completed 200 OK in 301ms (Views: 295.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 20:02:33 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3037ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4017ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3703ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2217ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2201ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1891ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1907ms
+  Rendered welcome/index.html.slim within layouts/application (18.3ms)
+Completed 200 OK in 258ms (Views: 254.1ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 20:03:11 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4811ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3154ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2172ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2768ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2646ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2441ms
+  Rendered welcome/index.html.slim within layouts/application (17.4ms)
+Completed 200 OK in 273ms (Views: 272.0ms)
+
+
+Started GET "/drinks/index" for 127.0.0.1 at 2015-08-16 20:03:13 +0300
+Processing by DrinksController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2787ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Drink"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2403ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2818ms
+  Rendered drinks/index.html.slim within layouts/application (11.6ms)
+Completed 200 OK in 242ms (Views: 241.1ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 20:03:18 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3028ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3936ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3264ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1454ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1986ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1693ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1450ms
+  Rendered welcome/index.html.slim within layouts/application (16.4ms)
+Completed 200 OK in 281ms (Views: 280.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 20:05:36 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2763ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.4203ms
+Creating scope :page. Overwriting existing method Drink.page.
+Creating scope :page. Overwriting existing method Salad.page.
+Creating scope :page. Overwriting existing method Soup.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method Roll.page.
+Creating scope :page. Overwriting existing method Sushi.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3784ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1681ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1996ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1271ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1173ms
+  Rendered welcome/index.html.slim within layouts/application (19.2ms)
+Completed 200 OK in 261ms (Views: 252.5ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-16 20:05:38 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2942ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2632ms
+Creating scope :page. Overwriting existing method Discount.page.
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3874ms
+  Rendered pizza/index.html.slim within layouts/application (17.2ms)
+Completed 200 OK in 261ms (Views: 260.3ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-16 20:06:41 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2639ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2036ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2449ms
+  Rendered pizza/index.html.slim within layouts/application (14.7ms)
+Completed 200 OK in 379ms (Views: 378.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 20:06:50 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2458ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3202ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2518ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1397ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1597ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1404ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1514ms
+  Rendered welcome/index.html.slim within layouts/application (16.4ms)
+Completed 200 OK in 260ms (Views: 259.5ms)
+
+
+Started GET "/pizza/index" for 127.0.0.1 at 2015-08-16 20:07:15 +0300
+Processing by PizzaController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2980ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["Pizza"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2367ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"_id"=>BSON::ObjectId('55d0bc36d3054d1f2e000001'), "_type"=>{"$in"=>["Discount"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2360ms
+  Rendered pizza/index.html.slim within layouts/application (4.6ms)
+Completed 200 OK in 292ms (Views: 291.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-16 20:07:20 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2897ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3953ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.3939ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2198ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2768ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=comments selector={"$query"=>{"approved"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2062ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1514ms
+  Rendered welcome/index.html.slim within layouts/application (16.5ms)
+Completed 200 OK in 261ms (Views: 260.7ms)
