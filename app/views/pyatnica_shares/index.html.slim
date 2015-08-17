@@ -1,0 +1,36 @@
+.menu#header
+  nav.navbar.navbar-default.orange
+    .container
+      .navbar-header
+        button#nav-toggle.navbar-toggle data-target="#main-nav" data-toggle="collapse" type="button"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      #main-nav.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li
+            = link_to welcome_index_path, {:'data-no-turbolink' => "true"}
+              = image_tag 'logo.png', class: 'img-logo'
+              span.logo.hidden-sm.hidden-xs Акции
+.container-fluid.items
+  .row
+    section#pyatnica
+      .content
+        .content-inner
+          h1 Акции службы доставки "ПЯТНИЦА"
+  .row
+    .container
+      - @shares.each_with_index do |share, index|
+        .col-lg-12.col-md-12.col-sm-12.col-xs-12.share.wow.bounceInRight data-wow-delay="#{index}s"
+          .head
+            .name.pull-left
+              = share.name
+            .dates.pull-right
+              i.fa.fa-calendar
+              |&nbsp; c &nbsp;
+              = share.from.strftime("%d/%m/%Y")
+              | &nbsp; по &nbsp;
+              = share.to.strftime("%d/%m/%Y")
+          .body
+            = share.description

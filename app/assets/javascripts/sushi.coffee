@@ -1,2 +1,0 @@
-$ ->
-  $(".items-wrapper .description").niceScroll()

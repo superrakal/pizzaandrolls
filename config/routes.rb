@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pyatnica_shares/index'
+
+  get 'pizzaandrolls_shares/index'
+
   post 'callback/new_callback'
 
   get 'drinks/index'

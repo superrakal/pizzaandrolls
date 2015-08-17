@@ -1,5 +1,6 @@
 $ ->
   $(document).ready ->
+    $('#move-modal').modal()
     $("#service .box-area").mouseenter ->
       $(this).addClass('animated pulse')
     $("#service .box-area").mouseleave ->

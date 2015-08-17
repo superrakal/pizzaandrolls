@@ -76,6 +76,15 @@
     .container.text-center
       .heading
         h2 Наши заведения
+      .content
+        .col-lg-6.col-md-6.col-sm-12.col-xs-12.place
+          .image.nez
+          .map
+            <a class="dg-widget-link" href="http://2gis.kz/ustkam/firm/12807639721353349/center/82.5959873199463,49.968944468326825/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Усть-Каменогорска</a><div class="dg-widget-link"><a href="http://2gis.kz/ustkam/firm/12807639721353349/photos/12807639721353349/center/82.5959873199463,49.968944468326825/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.kz/ustkam/center/82.595996,49.967998/zoom/16/routeTab/rsType/bus/to/82.595996,49.967998╎Burger club?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Burger club</a></div><script charset="utf-8" src="http://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":640,"height":400,"borderColor":"#a3a3a3","pos":{"lat":49.968944468326825,"lon":82.5959873199463,"zoom":16},"opt":{"city":"ustkam"},"org":[{"id":"12807639721353349"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+        .col-lg-6.col-md-6.col-sm-12.col-xs-12.place
+          .image.imp
+          .map
+            <a class="dg-widget-link" href="http://2gis.kz/ustkam/firm/12807639721315981/center/82.616574,49.95100900000002/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Усть-Каменогорска</a><div class="dg-widget-link"><a href="http://2gis.kz/ustkam/center/82.616574,49.951009/zoom/16/routeTab/rsType/bus/to/82.616574,49.951009╎Император, торговый комплекс?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Император, торговый комплекс</a></div><script charset="utf-8" src="http://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":640,"height":600,"borderColor":"#a3a3a3","pos":{"lat":49.95100900000002,"lon":82.616574,"zoom":16},"opt":{"city":"ustkam"},"org":[{"id":"12807639721315981"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
 
   section#service.service.page-section
     .container.text-center
@@ -166,10 +175,12 @@
       .content
         .row
           .col-md-12
-            .col-lg-6.col-md-6.col-sm-12.col-xs-12
-              = image_tag 'logo.png', class:'img-responsive'
-            .col-lg-6.col-md-6.col-sm-12.col-xs-12
-              = image_tag 'pyatnica.jpg', class: 'img-responsive'
+            = link_to pizzaandrolls_shares_index_path,{ :'data-no-turbolink' =>  "true" }
+              .col-lg-6.col-md-6.col-sm-12.col-xs-12
+                = image_tag 'logo.png', class:'img-responsive'
+            = link_to pyatnica_shares_index_path, {:'data-no-turbolink' => "true"}
+              .col-lg-6.col-md-6.col-sm-12.col-xs-12
+                = image_tag 'pyatnica.jpg', class: 'img-responsive'
   /! // grid-gallery
   /! feedback
   section#feedback.page-section
@@ -254,18 +265,27 @@
             br
             i.fa.fa-map-pin
             |&nbsp; пр.Ауэзова 28, ТЦ "Император", 0 этаж
-
-.modal.fade#move-modal
-  .modal-dialog
-    .modal-content
-      .modal-header
-        button.close aria-label="Close" data-dismiss="modal" type="button"
-          span aria-hidden="true"  &times;
-        h4.modal-title Акция!
-      .modal-body
-        p Условия акции
-      .modal-footer
-        button.btn.btn-default data-dismiss="modal" type="button"  Закрыть
+- unless@isWasShare
+  - if @share
+    .modal.fade#move-modal
+      .modal-dialog.animated.zoomIn
+        .modal-content
+          .modal-header
+            button.close aria-label="Close" data-dismiss="modal" type="button"
+              span aria-hidden="true"  &times;
+            h4.modal-title
+              = @share.name
+          .modal-body
+            p
+              = @share.description
+            p
+              |Акция продлится до:
+              |&nbsp;
+              b
+                = @share.to.strftime("%d/%m/%Y")
+              h4.wow.flash data-wow-iteration="infinite" data-wow-duration="3s" Спешите!
+          .modal-footer
+            button.btn.btn-default data-dismiss="modal" type="button"  Закрыть
 
 .modal.fade#callback-modal
   .modal-dialog

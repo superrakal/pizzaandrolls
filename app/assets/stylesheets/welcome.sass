@@ -75,3 +75,31 @@ a.button, a.button:focus, a.button:hover
     color: black
   a.text-success
     color: green !important
+
+.place
+  padding: 5px
+  &:hover
+    .map
+      opacity: 1
+  .image
+    border: 5px solid #E28133
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    position: relative
+    height: 400px
+    width: 100%
+    &.nez
+      background-image: asset-url("burger_club.jpg")
+    &.imp
+      background-image: asset-url("imp.jpg")
+  .map
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 410px
+    opacity: 0
+    iframe
+      width: 100%
+      height: 410px

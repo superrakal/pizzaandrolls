@@ -1,9 +1,13 @@
 /*---------------------------------------------------- 	General------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,700italic,700,500italic,500,400italic,300italic,900italic&subset=latin,cyrillic-ext,cyrillic);
+div, h1, h2, h3, h4, p {
+  font-family: 'Roboto', sans-serif !important;
+}
 body {
 	font-family:'Montserrat',sans-serif;
 	font-size:16px;
 	line-height:1.7;
-	color:#777;
+	color: rgba(0, 0, 0, 0.86);
 	font-weight:400;
 	overflow-x:hidden;
 }

@@ -71,6 +71,8 @@ ru:
         name: Название акции
         from: Дата начала
         to: Дата
+        description: Описание акции
+        type: Чья? PIZZA&ROLLS/Пятница
       discount:
         percent: Процент скидки
         items: Скидочные товары
