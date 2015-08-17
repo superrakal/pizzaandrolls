@@ -1,0 +1,51 @@
+.menu#header
+  nav.navbar.navbar-default.orange
+    .container
+      .navbar-header
+        button#nav-toggle.navbar-toggle data-target="#main-nav" data-toggle="collapse" type="button"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      #main-nav.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li
+            = link_to welcome_index_path,{ :'data-no-turbolink' =>  "true" }
+              = image_tag 'logo.png', class:'img-logo'
+              span.logo.hidden-sm.hidden-xs Каталог
+.container-fluid.items
+  .row
+    section#salads
+      .content
+        .content-inner
+          h1 Салаты & Супы
+  .items-wrapper
+    - @soups.each do |soup|
+      .col-lg-3.col-md-4.col-sm-6.col-xs-12.wow.fadeIn
+        .content
+          - if soup.top
+            .top.wow.pulse data-wow-iteration="infinite"
+              i.fa.fa-star
+              |ТОП
+          .image
+            = image_tag soup.image
+          .title
+            = soup.title
+          .description
+            = soup.description
+          .price.wow.lightSpeedIn data-wow-offset="100"
+            - if soup.is_has_discount
+              span.badge.deleted
+                = soup.price
+                |&nbsp; тенге
+              br
+              span.badge.success
+                = soup.price_with_discount
+                |&nbsp; тенге
+            - else
+              span.badge
+                = soup.price
+                |&nbsp; тенге
+          - if soup.is_has_discount
+            .discount.wow.bounce data-wow-iteration="infinite" data-wow-duration="3s"
+              i.fa.fa-thumbs-o-up.fa-2x

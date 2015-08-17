@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :sushi do
+  factory :sushi_rolls do
     
   end
 

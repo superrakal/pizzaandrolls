@@ -1,0 +1,2 @@
+class DrinkDesert < Item
+end

@@ -1,0 +1,2 @@
+class SushiRoll < Item
+end

@@ -11,36 +11,31 @@ ru:
         few:   Товары
         many:  Товаров
         other: Товары
-      sushi:
-        one:   Суши
-        few:   Суши
-        many:  Суши
-        other: Суши
-      roll:
-        one:   Ролл
-        few:   Роллы
-        many:  Роллы
-        other: Роллы
+      sushi_roll:
+        one:   Суши/Ролл
+        few:   Суши/Роллы
+        many:  Суши/Роллы
+        other: Суши/Роллы
       pizza:
         one:   Пицца
         few:   Пиццы
         many:  Пиццы
         other: Пиццы
-      soup:
-        one:   Горячее
-        few:   Горячие блюда
-        many:  Горячие блюда
-        other: Горячие блюда
-      salad:
-        one:   Салат
-        few:   Салаты
-        many:  Салаты
-        other: Салаты
-      drink:
-        one:   Напиток
-        few:   Напитки
-        many:  Напитки
-        other: Напитки
+      soup_salad:
+        one:   Суп/Салат
+        few:   Супы/Салаты
+        many:  Супы/Салаты
+        other: Супы/Салаты
+      drink_desert:
+        one:   Напиток/Десерт
+        few:   Напитки/Десерты
+        many:  Напитки/Десерты
+        other: Напитки/Десерты
+      snacks_mexica:
+        one:   Горячие закуски/Мексика
+        few:   Горячие закуски/Мексика
+        many:  Горячие закуски/Мексика
+        other: Горячие закуски/Мексика
       share:
         one:   Акция
         few:   Акции

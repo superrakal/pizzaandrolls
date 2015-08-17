@@ -1,2 +1,0 @@
-class Salad < Item
-end

@@ -3,7 +3,7 @@
   /! header
   .callback
     - unless @isCalledBack
-      #callback
+      #callback.wow.wobble data-wow-iteration="infinite" data-wow-duration="3s"
         i.fa.fa-phone
         a.hidden-md.hidden-sm Заказать звонок
     - else
@@ -25,24 +25,24 @@
           .hero
             hgroup
               = image_tag "logo.png"
-              h1 Вкуснейшая еда
-              h3 сайт в стадии разработки
+              h2 Будь с нами! Стань своим!
+              h4 сайт в стадии разработки
             a.btn.btn-hero.button href="#service"  Вкусить
         .item.slides
           .slide-2
           .hero
             hgroup
               = image_tag "logo.png"
-              h1 Вкуснейшая еда
-              h3 сайт в стадии разработки
+              h2 Будь с нами! Стань своим!
+              h4 сайт в стадии разработки
             a.btn.btn-hero.button href="#service"  Вкусить
         .item.slides
           .slide-3
           .hero
             hgroup
               = image_tag "logo.png"
-              h1 Вкуснейшая еда
-              h3 сайт в стадии разработки
+              h2 Будь с нами! Стань своим!
+              h4 сайт в стадии разработки
             a.btn.btn-hero.button href="#service"  Вкусить
       .menu
         nav.navbar.navbar-default.navbar-fixed-top
@@ -62,7 +62,7 @@
                 li
                   a.scroll-link href="#service"  Каталог
                 li
-                  a.scroll-link href="#gallery"  ТОП блюда
+                  a.scroll-link href="#top"  ТОП блюда
                 li
                   a.scroll-link href="#delivery"  Доставка
                 li
@@ -90,45 +90,38 @@
     .container.text-center
       .heading
         h2 Каталог
-      .row
-        = link_to sushi_index_path,{ :'data-no-turbolink' =>  "true" }
-          .col-md-4
+      .row.text-center
+        .col-lg-3.col-md-3.col-sm-6.col-xs-12.box
+          = link_to sushi_rolls_index_path, {:'data-no-turbolink' => "true"}
             .box-area
               .box-area-icon
                 =image_tag "sushi.png"
-              h3 Суши
-        .col-md-4
-          = link_to rolls_index_path,{ :'data-no-turbolink' =>  "true" }
-            .box-area
-              .box-area-icon
-                =image_tag "rolls.png"
-              h3 Роллы
-        .col-md-4
-          = link_to pizza_index_path, {:'data-no-turbolink' => "true"}
+              h4 Суши & Роллы
+        .col-lg-3.col-md-3.col-sm-6.col-xs-12.box
+          = link_to pizza_index_path,{ :'data-no-turbolink' =>  "true" }
             .box-area
               .box-area-icon
                 =image_tag "pizza.png"
-              h3 Пицца
-        .col-md-4
-          = link_to soup_index_path, {:'data-no-turbolink' => "true"}
-            .box-area
-              .box-area-icon
-                =image_tag "soup.png"
-              h3 Горячее
-        .col-md-4
-          = link_to salads_index_path, {:'data-no-turbolink' => "true"}
+              h4 Пицца
+        .col-lg-3.col-md-3.col-sm-6.col-xs-12.box
+          = link_to soup_salads_index_path, {:'data-no-turbolink' => "true"}
             .box-area
               .box-area-icon
                 =image_tag "salad.png"
-              h3 Салаты
-        .col-md-4
-          = link_to drinks_index_path, {:'data-no-turbolink' => "true"}
+              h4 Салаты & Супы
+        .col-lg-3.col-md-3.col-sm-6.col-xs-12.box
+          = link_to snacks_mexica_index_path, {:'data-no-turbolink' => "true"}
             .box-area
               .box-area-icon
-                =image_tag "drinks.png"
-              h3 Напитки
-  /! gallery
-  section#gallery.gallery.page-section
+                =image_tag "soup.png"
+              h4 Горячие закуски & Мексика
+        .col-lg-3.col-md-3.col-sm-6.col-xs-12.box
+          = link_to drink_deserts_index_path, {:'data-no-turbolink' => "true"}
+            .box-area
+              .box-area-icon
+                =image_tag "drink_deserts.png"
+              h4 Напитки & Десерты
+  section#top.gallery.page-section
     .container
       .heading
         h2 Топ блюда

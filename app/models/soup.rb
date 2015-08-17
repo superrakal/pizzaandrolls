@@ -1,2 +1,0 @@
-class Soup < Item
-end

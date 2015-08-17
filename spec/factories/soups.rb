@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :soup do
+  factory :soup_salads do
     
   end
 

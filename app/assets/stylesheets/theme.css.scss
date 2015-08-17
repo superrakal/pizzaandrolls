@@ -11,6 +11,9 @@ body {
 	font-weight:400;
 	overflow-x:hidden;
 }
+a, button, input[type=submit] {
+  border-radius: 30px !important;
+}
 .playball {
 	font-family:'Playball',cursive;
 }

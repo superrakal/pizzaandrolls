@@ -1,0 +1,2 @@
+class SnacksMexica < Item
+end

@@ -1,0 +1,2 @@
+class SoupSalad < Item
+end
