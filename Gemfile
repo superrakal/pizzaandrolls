@@ -90,3 +90,4 @@ end
 gem 'rails-i18n'
 gem 'ckeditor_rails'
 gem 'mainsms_api'
+gem 'rename'
