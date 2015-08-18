@@ -5,7 +5,10 @@ class Item
   field :top, type: Boolean, default: false
   field :title
   field :description
-  has_mongoid_attached_file :image
+  has_mongoid_attached_file :image,
+                            :styles => {
+                                :original => ['640x480>', :jpg]
+                            }
   field :price, type: Integer
 
   belongs_to :discount

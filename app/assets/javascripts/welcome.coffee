@@ -6,6 +6,7 @@ $ ->
     $("#service .box-area").mouseleave ->
       $(this).removeClass('animated pulse')
     $("body").niceScroll()
+    $(".items-wrapper .description").niceScroll()
 
 $ ->
   $('#callback').click ->
