@@ -71063,3 +71063,13 @@ Creating scope :page. Overwriting existing method DrinkDesert.page.
   MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["DrinkDesert"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1824ms
   Rendered drink_deserts/index.html.slim within layouts/application (8.9ms)
 Completed 200 OK in 243ms (Views: 241.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-18 07:40:05 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2885ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-18 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-18 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1881ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.2127ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2148ms
+  Rendered welcome/index.html.slim within layouts/application (7.6ms)
+Completed 200 OK in 280ms (Views: 277.7ms)
