@@ -71054,3 +71054,12 @@ Processing by WelcomeController#index as HTML
   MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1748ms
   Rendered welcome/index.html.slim within layouts/application (7.0ms)
 Completed 200 OK in 230ms (Views: 227.8ms)
+
+
+Started GET "/drink_deserts/index" for 127.0.0.1 at 2015-08-18 07:25:09 +0300
+Processing by DrinkDesertsController#index as HTML
+Creating scope :page. Overwriting existing method DrinkDesert.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3471ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["DrinkDesert"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1824ms
+  Rendered drink_deserts/index.html.slim within layouts/application (8.9ms)
+Completed 200 OK in 243ms (Views: 241.0ms)
