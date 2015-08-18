@@ -28,7 +28,7 @@
               i.fa.fa-star
               |ТОП
           .image
-            = image_tag soup.image
+            = image_tag soup.image.url(:original), class:'img-thumbnail'
           .title
             = soup.title
           .description

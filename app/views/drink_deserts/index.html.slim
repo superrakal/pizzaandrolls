@@ -28,7 +28,7 @@
               i.fa.fa-star
               |ТОП
           .image
-            = image_tag item.image
+            = image_tag item.image.url(:original), class:'img-thumbnail'
           .title
             = item.title
           .description

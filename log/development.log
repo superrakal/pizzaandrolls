@@ -71138,3 +71138,40 @@ Creating scope :page. Overwriting existing method SushiRoll.page.
   MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"_type"=>{"$in"=>["SushiRoll"]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1781ms
   Rendered sushi_rolls/index.html.slim within layouts/application (9.1ms)
 Completed 200 OK in 217ms (Views: 215.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-18 12:06:21 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3505ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-18 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-18 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1838ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.2246ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1929ms
+  Rendered welcome/index.html.slim within layouts/application (7.5ms)
+Completed 200 OK in 470ms (Views: 468.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-18 12:06:26 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2875ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-18 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-18 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1528ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.1771ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2995ms
+  Rendered welcome/index.html.slim within layouts/application (13.2ms)
+Completed 200 OK in 209ms (Views: 206.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-18 12:06:37 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-18 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-18 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2339ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.1628ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.1938ms
+  Rendered welcome/index.html.slim within layouts/application (7.1ms)
+Completed 200 OK in 244ms (Views: 242.7ms)
+
+
+Started GET "/pizzaandrolls_shares/index" for 127.0.0.1 at 2015-08-18 12:06:39 +0300
+Processing by PizzaandrollsSharesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3436ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"type"=>"PIZZA&ROLLS", "from"=>{"$lte"=>2015-08-18 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-18 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1693ms
+  Rendered pizzaandrolls_shares/index.html.slim within layouts/application (8.4ms)
+Completed 200 OK in 206ms (Views: 204.8ms)
