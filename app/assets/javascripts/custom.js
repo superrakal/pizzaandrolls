@@ -7,7 +7,7 @@ jQuery(function($) {
         interval: 4000,
     });
 
-    new WOW().init();
+    new WOW({mobile: false}).init();
 
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
