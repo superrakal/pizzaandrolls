@@ -32,7 +32,7 @@
           .title
             = item.title
           .description
-            = item.description
+            = item.description.html_safe
           .price.wow.lightSpeedIn data-wow-offset="100"
             - if item.is_has_discount
               span.badge.deleted

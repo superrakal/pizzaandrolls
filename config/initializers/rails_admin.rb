@@ -27,9 +27,77 @@ RailsAdmin.config do |config|
     edit
     delete
     show_in_app
+  end
 
-    ## With an audit adapter, you can add:
-    # history_index
-    # history_show
+  config.model Share do
+    edit do
+      field :name
+      field :from
+      field :to
+      field :description, :ck_editor
+      field :type
+    end
+  end
+  config.model Discount do
+    edit do
+      field :name
+      field :from
+      field :to
+      field :description, :ck_editor
+      field :type
+      field :percent
+      field :items
+    end
+  end
+  config.model DrinkDesert do
+    edit do
+      field :top
+      field :title
+      field :description, :ck_editor
+      field :image
+      field :price
+      field :discount
+    end
+  end
+  config.model Pizza do
+    edit do
+      field :top
+      field :title
+      field :description, :ck_editor
+      field :image
+      field :price
+      field :small_price
+      field :discount
+    end
+  end
+  config.model SnacksMexica do
+    edit do
+      field :top
+      field :title
+      field :description, :ck_editor
+      field :image
+      field :price
+      field :discount
+    end
+  end
+  config.model SoupSalad do
+    edit do
+      field :top
+      field :title
+      field :description, :ck_editor
+      field :image
+      field :price
+      field :discount
+    end
+  end
+  config.model SushiRoll do
+    edit do
+      field :top
+      field :title
+      field :description, :ck_editor
+      field :image
+      field :price
+      field :discount
+    end
   end
 end
