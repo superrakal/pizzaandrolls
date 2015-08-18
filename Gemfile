@@ -88,5 +88,5 @@ group :production do
   gem 'unicorn', platform: :ruby
 end
 gem 'rails-i18n'
-gem 'ckeditor'
+gem 'ckeditor_rails'
 gem 'mainsms_api'
