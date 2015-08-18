@@ -71175,3 +71175,38 @@ Processing by PizzaandrollsSharesController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"type"=>"PIZZA&ROLLS", "from"=>{"$lte"=>2015-08-18 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-18 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1693ms
   Rendered pizzaandrolls_shares/index.html.slim within layouts/application (8.4ms)
 Completed 200 OK in 206ms (Views: 204.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-08-18 12:12:11 +0300
+Processing by RailsAdmin::MainController#dashboard as HTML
+Creating scope :page. Overwriting existing method Discount.page.
+Creating scope :page. Overwriting existing method DrinkDesert.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method SnacksMexica.page.
+Creating scope :page. Overwriting existing method SoupSalad.page.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3235ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{}} runtime: 0.1643ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["SnacksMexica"]}}} runtime: 0.1724ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["DrinkDesert"]}}} runtime: 0.2017ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{}} runtime: 0.1843ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["Pizza"]}}} runtime: 0.1519ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"shares", :query=>{"_type"=>{"$in"=>["Discount"]}}} runtime: 0.1469ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["SoupSalad"]}}} runtime: 0.1645ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{"_type"=>{"$in"=>["SushiRoll"]}}} runtime: 0.2046ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"items", :query=>{}} runtime: 0.1543ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (17.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (5.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (2.6ms)
+Completed 200 OK in 767ms (Views: 424.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-18 12:14:02 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2904ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-18 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-18 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1876ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.2158ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2258ms
+  Rendered welcome/index.html.slim within layouts/application (7.6ms)
+Completed 200 OK in 206ms (Views: 203.9ms)
