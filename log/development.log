@@ -72732,3 +72732,69 @@ Creating scope :page. Overwriting existing method Pizza.page.
 Creating scope :page. Overwriting existing method SnacksMexica.page.
 Creating scope :page. Overwriting existing method SoupSalad.page.
 Creating scope :page. Overwriting existing method SushiRoll.page.
+Creating scope :page. Overwriting existing method Discount.page.
+Creating scope :page. Overwriting existing method DrinkDesert.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method SnacksMexica.page.
+Creating scope :page. Overwriting existing method SoupSalad.page.
+Creating scope :page. Overwriting existing method SushiRoll.page.
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-19 11:09:41 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6065ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-19 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-19 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3231ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.2849ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2298ms
+  Rendered welcome/index.html.slim within layouts/application (43.6ms)
+Completed 200 OK in 382ms (Views: 369.7ms)
+
+
+Started POST "/callback/new_callback?name=2121321321&number=+7%20(445)%20454-5541" for 127.0.0.1 at 2015-08-19 11:09:52 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"2121321321", "number"=>" 7 (445) 454-5541"}
+Completed 200 OK in 649ms
+Creating scope :page. Overwriting existing method Discount.page.
+Creating scope :page. Overwriting existing method DrinkDesert.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method SnacksMexica.page.
+Creating scope :page. Overwriting existing method SoupSalad.page.
+Creating scope :page. Overwriting existing method SushiRoll.page.
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-19 11:11:16 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6387ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-19 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-19 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3457ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.3130ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2623ms
+  Rendered welcome/index.html.slim within layouts/application (51.5ms)
+Completed 200 OK in 396ms (Views: 380.3ms)
+
+
+Started POST "/callback/new_callback?name=tererer&number=+7%20(955)%20959-5995" for 127.0.0.1 at 2015-08-19 11:11:26 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"tererer", "number"=>" 7 (955) 959-5995"}
+Completed 200 OK in 397ms
+Creating scope :page. Overwriting existing method Discount.page.
+Creating scope :page. Overwriting existing method DrinkDesert.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method SnacksMexica.page.
+Creating scope :page. Overwriting existing method SoupSalad.page.
+Creating scope :page. Overwriting existing method SushiRoll.page.
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-19 11:15:11 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5579ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-19 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-19 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2935ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.2608ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2151ms
+  Rendered welcome/index.html.slim within layouts/application (44.4ms)
+Completed 200 OK in 380ms (Views: 368.0ms)
+
+
+Started POST "/callback/new_callback?name=%D0%95%D0%B3%D0%BE%D1%80&number=+7%20(913)%20451-6235" for 127.0.0.1 at 2015-08-19 11:15:25 +0300
+Processing by CallbackController#new_callback as */*
+  Parameters: {"name"=>"Егор", "number"=>" 7 (913) 451-6235"}
+Completed 200 OK in 629ms
