@@ -2,7 +2,7 @@ jQuery(document).ready(function ($) {
     $('#callback_button').click(function () {
         var name = $('#callback_name');
         var number = $('#phone');
-        if (name.val().length() && number.val().length()) {
+        if ($('#callback_name').val().length && $('#phone').val().length) {
             var data = 'name=' + name.val() + '&number=' + number.val();
             $.ajax({
                 url: "/callback/new_callback?"+data,
