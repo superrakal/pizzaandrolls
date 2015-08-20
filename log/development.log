@@ -76022,3 +76022,43 @@ Processing by TeamController#gallery as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=gallery_images selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3040ms
   Rendered team/gallery.html.slim within layouts/application (4.8ms)
 Completed 200 OK in 434ms (Views: 433.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-20 15:05:22 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3059ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-20 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-20 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2861ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=9 skip=0 batch_size=nil fields=nil runtime: 0.2863ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2446ms
+  Rendered welcome/index.html.slim within layouts/application (53.3ms)
+Completed 200 OK in 471ms (Views: 468.9ms)
+
+
+Started GET "/team/gallery" for 127.0.0.1 at 2015-08-20 15:05:26 +0300
+Processing by TeamController#gallery as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3707ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=gallery_images selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2601ms
+  Rendered team/gallery.html.slim within layouts/application (9.5ms)
+Completed 200 OK in 393ms (Views: 392.8ms)
+
+
+Started GET "/team/gallery" for 127.0.0.1 at 2015-08-20 15:05:50 +0300
+Processing by TeamController#gallery as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=gallery_images selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4210ms
+  Rendered team/gallery.html.slim within layouts/application (4.2ms)
+Completed 200 OK in 433ms (Views: 432.5ms)
+
+
+Started GET "/team/gallery" for 127.0.0.1 at 2015-08-20 15:05:58 +0300
+Processing by TeamController#gallery as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=gallery_images selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3958ms
+  Rendered team/gallery.html.slim within layouts/application (4.8ms)
+Completed 200 OK in 472ms (Views: 471.1ms)
+
+
+Started GET "/team/gallery" for 127.0.0.1 at 2015-08-20 15:06:05 +0300
+Processing by TeamController#gallery as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3488ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=gallery_images selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2556ms
+  Rendered team/gallery.html.slim within layouts/application (5.0ms)
+Completed 200 OK in 434ms (Views: 433.6ms)
