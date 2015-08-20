@@ -3,7 +3,6 @@ class GalleryImage
   include Mongoid::Paperclip
 
   field :name
-  field :description
   has_mongoid_attached_file :image,
                             :styles => {
                                 :original => ['640x480', :jpg]

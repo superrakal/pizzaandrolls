@@ -56,6 +56,11 @@ ru:
         few:   Сотрудники
         many:  Сотрудники
         other: Сотрудники
+      gallery_image:
+        one:   Фотография
+        few:   Фотографии галереи
+        many:  Фотографии галереи
+        other: Фотографии галереи
 
     attributes:
       item:
@@ -88,5 +93,8 @@ ru:
         name: Имя
         surname: Фамилия
         post: Должность
+        image: Фото
+      gallery_image:
+        name: Название фото
         image: Фото
 

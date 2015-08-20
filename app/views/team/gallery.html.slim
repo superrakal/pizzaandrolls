@@ -20,7 +20,7 @@
           h1 Наша жизнь
   .items
     - @images.each_with_index do |image, index|
-      .col-lg-4.col-md-4.col-sm-6.col-xs-12.gallery_image.wow.bounceInRight data-wow-delay="#{index}s"
-        .content
-          = image_tag image.image.url(:original), class: 'img-responsive'
-        .overlay
+      .col-lg-4.col-md-4.col-sm-6.col-xs-12.wow.bounceInRight data-wow-delay="#{index}s"
+        a.gallery href="#{image.image.url(:original)}" rel="group" title=("#{image.name}")
+          = image_tag  image.image.url(:original)
+

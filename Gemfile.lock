@@ -148,6 +148,8 @@ GEM
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
+    fancybox2-rails (0.2.8)
+      railties (>= 3.1.0, < 5.0)
     ffi (1.9.10)
     font-awesome-rails (4.4.0.0)
       railties (>= 3.2, < 5.0)
@@ -426,6 +428,7 @@ DEPENDENCIES
   devise
   email_spec
   factory_girl_rails
+  fancybox2-rails (~> 0.2.8)
   font-awesome-rails
   formtastic
   html2slim
@@ -457,3 +460,6 @@ DEPENDENCIES
   unicorn
   unicorn_service
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.10.5
