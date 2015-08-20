@@ -4,6 +4,7 @@ class TeamController < ApplicationController
   end
 
   def workers
+    @workers = Worker.all
   end
 
   def gallery

@@ -1,2 +1,33 @@
-h1 Team#workers
-p Find me in app/views/team/workers.html.slim
+.menu#header
+  nav.navbar.navbar-default.orange
+    .container
+      .navbar-header
+        button#nav-toggle.navbar-toggle data-target="#main-nav" data-toggle="collapse" type="button"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      #main-nav.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li
+            = link_to welcome_index_path, {:'data-no-turbolink' => "true"}
+              = image_tag 'logo.png', class: 'img-logo'
+              span.logo.hidden-sm.hidden-xs Каталог
+.container-fluid.items
+  .row
+    section#workers
+      .content
+        .content-inner
+          h1 Сотрудники
+  .items
+    - @workers.each_with_index do |worker, index|
+      .col-lg-4.col-md-4.col-sm-6.col-xs-12.worker.wow.bounceInRight data-wow-delay="#{index}s"
+        .content
+          = image_tag worker.image.url(:original), class: 'img-responsive'
+          .body
+            .name_and_surname.text-center
+              = worker.name
+              |&nbsp;
+              = worker.surname
+            .post.text-center.text-uppercase.badge
+              = worker.post

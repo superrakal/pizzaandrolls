@@ -51,6 +51,11 @@ ru:
         few:   Вакансии
         many:  Вакансии
         other: Вакансии
+      worker:
+        one:   Сотрудник
+        few:   Сотрудники
+        many:  Сотрудники
+        other: Сотрудники
 
     attributes:
       item:
@@ -79,4 +84,9 @@ ru:
       vacancy:
         name: Название
         description: Описание
+      worker:
+        name: Имя
+        surname: Фамилия
+        post: Должность
+        image: Фото
 
