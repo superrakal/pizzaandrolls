@@ -75571,3 +75571,39 @@ Processing by WelcomeController#index as HTML
   MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2477ms
   Rendered welcome/index.html.slim within layouts/application (59.4ms)
 Completed 200 OK in 312ms (Views: 309.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-20 14:28:45 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2744ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-20 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-20 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3200ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.2913ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2530ms
+  Rendered welcome/index.html.slim within layouts/application (8.1ms)
+Completed 200 OK in 398ms (Views: 395.6ms)
+
+
+Started GET "/team/workers" for 127.0.0.1 at 2015-08-20 14:28:48 +0300
+Processing by TeamController#workers as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3273ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=workers selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2685ms
+  Rendered team/workers.html.slim within layouts/application (9.2ms)
+Completed 200 OK in 267ms (Views: 266.5ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-20 14:28:51 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3407ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=shares selector={"$query"=>{"from"=>{"$lte"=>2015-08-20 00:00:00 UTC}, "to"=>{"$gte"=>2015-08-20 00:00:00 UTC}}, "$orderby"=>{"to"=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3312ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=items selector={"$query"=>{"top"=>true}, "$orderby"=>{"_id"=>-1}} flags=[] limit=8 skip=0 batch_size=nil fields=nil runtime: 0.2584ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"comments", :query=>{"approved"=>true}} runtime: 0.2308ms
+  Rendered welcome/index.html.slim within layouts/application (7.7ms)
+Completed 200 OK in 239ms (Views: 236.8ms)
+
+
+Started GET "/team/vacancy" for 127.0.0.1 at 2015-08-20 14:28:55 +0300
+Processing by TeamController#vacancy as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2952ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=burgerclub_development command={:count=>"vacancies", :query=>{}} runtime: 0.1836ms
+  Rendered team/vacancy.html.slim within layouts/application (8.7ms)
+Completed 200 OK in 272ms (Views: 271.5ms)
