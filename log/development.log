@@ -76000,3 +76000,25 @@ Processing by RailsAdmin::MainController#new as HTML
   Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (2.5ms)
   Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (14.7ms)
 Completed 200 OK in 23ms (Views: 19.9ms)
+Creating scope :page. Overwriting existing method Discount.page.
+Creating scope :page. Overwriting existing method DrinkDesert.page.
+Creating scope :page. Overwriting existing method Pizza.page.
+Creating scope :page. Overwriting existing method SnacksMexica.page.
+Creating scope :page. Overwriting existing method SoupSalad.page.
+Creating scope :page. Overwriting existing method SushiRoll.page.
+
+
+Started GET "/team/gallery" for 127.0.0.1 at 2015-08-20 15:02:11 +0300
+Processing by TeamController#gallery as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3898ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=gallery_images selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2751ms
+  Rendered team/gallery.html.slim within layouts/application (17.8ms)
+Completed 200 OK in 493ms (Views: 492.4ms)
+
+
+Started GET "/team/gallery" for 127.0.0.1 at 2015-08-20 15:02:22 +0300
+Processing by TeamController#gallery as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3793ms
+  MOPED: 127.0.0.1:27017 QUERY        database=burgerclub_development collection=gallery_images selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3040ms
+  Rendered team/gallery.html.slim within layouts/application (4.8ms)
+Completed 200 OK in 434ms (Views: 433.5ms)
