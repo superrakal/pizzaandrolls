@@ -8,5 +8,6 @@ class TeamController < ApplicationController
   end
 
   def gallery
+    @images = GalleryImage.all
   end
 end

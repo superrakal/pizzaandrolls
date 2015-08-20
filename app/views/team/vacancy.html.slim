@@ -12,7 +12,6 @@
           li
             = link_to welcome_index_path, {:'data-no-turbolink' => "true"}
               = image_tag 'logo.png', class: 'img-logo'
-              span.logo.hidden-sm.hidden-xs Каталог
 .container-fluid.items
   .row
     section#vacancy
@@ -32,4 +31,4 @@
           .body
             p Описание вакансии:
             p.description
-              = vacancy.description
+              = vacancy.description.html_safe
