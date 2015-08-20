@@ -46,6 +46,11 @@ ru:
         few:   Скидки
         many:  Скидки
         other: Скидки
+      vacancy:
+        one:   Вакансия
+        few:   Вакансии
+        many:  Вакансии
+        other: Вакансии
 
     attributes:
       item:
@@ -71,4 +76,7 @@ ru:
       discount:
         percent: Процент скидки
         items: Скидочные товары
+      vacancy:
+        name: Название
+        description: Описание
 

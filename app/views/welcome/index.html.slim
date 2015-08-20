@@ -70,6 +70,8 @@
                 li
                   a.scroll-link href="#feedback"  Отзывы
                 li
+                  a.scroll-link href="#team"  Команда
+                li
                   a.scroll-link href="#contact"  Контакты
 
   section#our_places.service.page-section
@@ -233,6 +235,28 @@
           input.contact.noMarr.col-md-6.col-sm-12.col-xs-12 name="email" placeholder=("E-mail адрес *") type="email" /
           textarea.contact.col-md-12.col-sm-12.col-xs-12 name="comment" placeholder=("Сообщение *")
           input#submit.contact.submit.center-block type="submit" value=("Отправить") /
+
+  section#team.page-section
+    .container
+      .heading
+        h2 Команда PIZZA & ROLLS
+    .container
+      .col-lg-4.col-md-4.col-sm-12.col-xs-12.text-center.teamblock
+        = link_to team_vacancy_path
+          .center-block
+            i.fa.fa-bullhorn.fa-3x
+          h2.text-uppercase Вакансии
+      .col-lg-4.col-md-4.col-sm-12.col-xs-12.text-center.teamblock
+        = link_to team_workers_path
+          .center-block
+            i.fa.fa-users.fa-3x
+          h2.text-uppercase Сотрудники
+      .col-lg-4.col-md-4.col-sm-12.col-xs-12.text-center.teamblock
+        = link_to team_gallery_path
+          .center-block
+            i.fa.fa-photo.fa-3x
+          h2.text-uppercase Наша жизнь
+
 
   section#contact.contact.page-section
     .container

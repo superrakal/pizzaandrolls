@@ -100,4 +100,10 @@ RailsAdmin.config do |config|
       field :discount
     end
   end
+  config.model Vacancy do
+    edit do
+      field :name
+      field :description, :ck_editor
+    end
+  end
 end

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'team/vacancy'
+
+  get 'team/workers'
+
+  get 'team/gallery'
+
   get 'snacks_mexica/index'
 
   get 'pyatnica_shares/index'
