@@ -6,4 +6,7 @@ class CallbackController < ApplicationController
     session[:callback] = true
     head :ok, content_type: 'text/html'
   end
+  def update_status
+    render :nothing => true, :status => 200, :content_type => 'text/html'
+  end
 end

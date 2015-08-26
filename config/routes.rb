@@ -25,6 +25,7 @@ Rails.application.routes.draw do
 
   post 'feedback/create'
   post 'callback/new_callback'
+  get 'callback/update_status'
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'welcome/index'
