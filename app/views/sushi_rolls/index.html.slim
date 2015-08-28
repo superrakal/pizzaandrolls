@@ -19,6 +19,18 @@
       .content
         .content-inner
           h1 Суши & Роллы
+  .row
+    .container-fluid.links.text-center
+      = link_to sushi_rolls_index_path, {:'data-no-turbolink' => "true"}
+        button.btn.btn-default.text-uppercase.btn-hero Суши & Роллы
+      = link_to pizza_index_path,{ :'data-no-turbolink' =>  "true" }
+        button.btn.btn-default.text-uppercase.btn-hero Пицца
+      = link_to soup_salads_index_path, {:'data-no-turbolink' => "true"}
+        button.btn.btn-default.text-uppercase.btn-hero Салаты & Супы
+      = link_to snacks_mexica_index_path, {:'data-no-turbolink' => "true"}
+        button.btn.btn-default.text-uppercase.btn-hero  Горячие закуски & Мексика
+      = link_to drink_deserts_index_path, {:'data-no-turbolink' => "true"}
+        button.btn.btn-default.text-uppercase.btn-hero  Напитки & Десерты
   .items-wrapper
     - @sushi_roll.each do |sushi|
       .col-lg-4.col-md-4.col-sm-6.col-xs-12.wow.fadeIn
