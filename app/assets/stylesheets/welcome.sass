@@ -146,6 +146,7 @@ hgroup
   .top-phone
     h3
       font-size: 18px !important
+      color: black !important
   header
     margin-top: 80px !important
   .place
@@ -182,16 +183,21 @@ hgroup
     padding: 15px !important
 
 .top-phone
-  width: 100%
   padding: 20px
   position: absolute
   top: 70px
-  z-index: 20
+  z-index: 1000
   text-align: center
   h3
     font-size: 3em
     color: white
+  &.left-phone
+    left: 10px
+  &.right-phone
+    right: 10px
 
+#main-nav
+  z-index: 1001
 
 
 

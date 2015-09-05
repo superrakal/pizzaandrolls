@@ -1,22 +1,7 @@
 /! wrapper start
 .wrapper
   /! header
-  .callback
-    - unless @isCalledBack
-      #callback.wow.wobble data-wow-iteration="infinite" data-wow-duration="3s"
-        i.fa.fa-phone
-        a.hidden-md.hidden-sm Заказать звонок
-    - else
-      i.fa.fa-phone-square.text-success
-      a.hidden-md.hidden-sm.text-success Заказан
-  .top-phone
-    h3
-      .pull-left
-        i.fa.fa-mobile
-        |&nbsp; 8-777-851-4141
-      .pull-right
-        i.fa.fa-phone
-        |&nbsp; 711-511
+
   header#header
     #bs-carousel.carousel.fade-carousel.slide data-interval="4000" data-ride="carousel"
       /! Overlay
@@ -68,7 +53,7 @@
                 li
                   a.scroll-link href="#our_places"  Наши заведения
                 li
-                  a.scroll-link href="#service"  Каталог
+                  a.scroll-link href="#service"  Меню
                 li
                   a.scroll-link href="#top"  ТОП блюда
                 li
@@ -99,7 +84,7 @@
   section#service.service.page-section
     .container.text-center
       .heading
-        h2 Каталог
+        h2 Меню
       .row.text-center
         .col-lg-3.col-md-3.col-sm-6.col-xs-12.box
           = link_to sushi_rolls_index_path, {:'data-no-turbolink' => "true"}
@@ -312,19 +297,4 @@
           .modal-footer
             button.btn.btn-default data-dismiss="modal" type="button"  Закрыть
 
-.modal.fade#callback-modal
-  .modal-dialog
-    .modal-content
-      .modal-header
-        button.close aria-label="Close" data-dismiss="modal" type="button"
-          span aria-hidden="true"  &times;
-        h4.modal-title Заказ обратного звонка
-      .modal-body
-        form
-          .form-group
-            input.form-control#callback_name name='name' placeholder='Ваше имя'
-          .form-group
-            input#phone.form-control  name='number' placeholder='Введите номер'
-      .modal-footer
-        button.btn.btn-default data-dismiss="modal" type="button"  Закрыть
-        button.btn.btn-red#callback_button type="button"  Заказать
+
